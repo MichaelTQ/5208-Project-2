@@ -1,0 +1,22 @@
+{
+  "python_version": "3.11.14",
+  "spark_version": "3.5.8",
+  "java_major": 17,
+  "java_release": "17.0.20.1+1",
+  "timezone": "Asia/Singapore",
+  "spark_master": "local[4]",
+  "driver_memory": "4g",
+  "shuffle_partitions": 16,
+  "sample_stations": ["S77", "S109", "S64", "S90"],
+  "collection_id": "2279",
+  "datasets": {
+    "2017": "d_1990a5a1aeaf3dd243cf4dae294a61c4",
+    "2018": "d_024fb501ce7092b71bb713eaf54fa7eb",
+    "2019": "d_61995f092320e7155b7528050880b502",
+    "2020": "d_9e7de44094f876f6804b8b5bcee45c81",
+    "2021": "d_3b41598f74f1f11fc3430348fea51af5",
+    "2022": "d_42d64cc6c176ace1c52fbb40b9ede302",
+    "2023": "d_f864cc30d58b467db83659ad17c737bf",
+    "2024": "d_a0b69d3e02576a1fd0ab673e71f83507"
+  }
+}

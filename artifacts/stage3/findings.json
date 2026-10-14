@@ -1,0 +1,10 @@
+{
+  "primary_highest_year": 2023,
+  "primary_lowest_year": 2019,
+  "joint_top_station": "S08",
+  "joint_bottom_station": "S24",
+  "global_september_share_pct": 70.72434607645876,
+  "max_network_extreme_rain_share_pct": 0.07786763626976036,
+  "max_primary_rate_change_without_extremes_pct": 0.08517255372496227,
+  "primary_rank_unchanged_without_extremes": true
+}

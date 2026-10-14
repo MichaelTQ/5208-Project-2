@@ -1,0 +1,226 @@
+[
+  {
+    "boundary_year": 2018,
+    "station_id": "S77",
+    "previous_last_timestamp": "2017-12-31T23:55:00+08:00",
+    "next_first_timestamp": "2018-01-01T00:00:00+08:00",
+    "gap_seconds": 300.0,
+    "five_minute_continuity": true
+  },
+  {
+    "boundary_year": 2018,
+    "station_id": "S109",
+    "previous_last_timestamp": "2017-12-31T23:55:00+08:00",
+    "next_first_timestamp": "2018-01-01T00:00:00+08:00",
+    "gap_seconds": 300.0,
+    "five_minute_continuity": true
+  },
+  {
+    "boundary_year": 2018,
+    "station_id": "S64",
+    "previous_last_timestamp": "2017-12-31T23:55:00+08:00",
+    "next_first_timestamp": "2018-01-01T00:00:00+08:00",
+    "gap_seconds": 300.0,
+    "five_minute_continuity": true
+  },
+  {
+    "boundary_year": 2018,
+    "station_id": "S90",
+    "previous_last_timestamp": "2017-12-31T23:55:00+08:00",
+    "next_first_timestamp": "2018-01-01T00:00:00+08:00",
+    "gap_seconds": 300.0,
+    "five_minute_continuity": true
+  },
+  {
+    "boundary_year": 2019,
+    "station_id": "S77",
+    "previous_last_timestamp": "2018-12-31T23:55:00+08:00",
+    "next_first_timestamp": "2019-01-01T00:00:00+08:00",
+    "gap_seconds": 300.0,
+    "five_minute_continuity": true
+  },
+  {
+    "boundary_year": 2019,
+    "station_id": "S109",
+    "previous_last_timestamp": null,
+    "next_first_timestamp": null,
+    "gap_seconds": null,
+    "five_minute_continuity": false
+  },
+  {
+    "boundary_year": 2019,
+    "station_id": "S64",
+    "previous_last_timestamp": "2018-12-31T23:55:00+08:00",
+    "next_first_timestamp": "2019-01-01T00:00:00+08:00",
+    "gap_seconds": 300.0,
+    "five_minute_continuity": true
+  },
+  {
+    "boundary_year": 2019,
+    "station_id": "S90",
+    "previous_last_timestamp": "2018-12-31T23:55:00+08:00",
+    "next_first_timestamp": "2019-01-01T00:00:00+08:00",
+    "gap_seconds": 300.0,
+    "five_minute_continuity": true
+  },
+  {
+    "boundary_year": 2020,
+    "station_id": "S77",
+    "previous_last_timestamp": "2019-12-31T23:55:00+08:00",
+    "next_first_timestamp": "2020-01-01T00:00:00+08:00",
+    "gap_seconds": 300.0,
+    "five_minute_continuity": true
+  },
+  {
+    "boundary_year": 2020,
+    "station_id": "S109",
+    "previous_last_timestamp": "2019-12-31T23:55:00+08:00",
+    "next_first_timestamp": "2020-01-01T00:00:00+08:00",
+    "gap_seconds": 300.0,
+    "five_minute_continuity": true
+  },
+  {
+    "boundary_year": 2020,
+    "station_id": "S64",
+    "previous_last_timestamp": "2019-12-31T23:55:00+08:00",
+    "next_first_timestamp": "2020-01-01T00:00:00+08:00",
+    "gap_seconds": 300.0,
+    "five_minute_continuity": true
+  },
+  {
+    "boundary_year": 2020,
+    "station_id": "S90",
+    "previous_last_timestamp": "2019-12-31T23:55:00+08:00",
+    "next_first_timestamp": "2020-01-01T00:00:00+08:00",
+    "gap_seconds": 300.0,
+    "five_minute_continuity": true
+  },
+  {
+    "boundary_year": 2021,
+    "station_id": "S77",
+    "previous_last_timestamp": "2020-12-31T23:55:00+08:00",
+    "next_first_timestamp": "2021-01-01T00:00:00+08:00",
+    "gap_seconds": 300.0,
+    "five_minute_continuity": true
+  },
+  {
+    "boundary_year": 2021,
+    "station_id": "S109",
+    "previous_last_timestamp": "2020-12-31T23:55:00+08:00",
+    "next_first_timestamp": "2021-01-01T00:00:00+08:00",
+    "gap_seconds": 300.0,
+    "five_minute_continuity": true
+  },
+  {
+    "boundary_year": 2021,
+    "station_id": "S64",
+    "previous_last_timestamp": null,
+    "next_first_timestamp": null,
+    "gap_seconds": null,
+    "five_minute_continuity": false
+  },
+  {
+    "boundary_year": 2021,
+    "station_id": "S90",
+    "previous_last_timestamp": "2020-12-31T23:55:00+08:00",
+    "next_first_timestamp": "2021-01-01T00:00:00+08:00",
+    "gap_seconds": 300.0,
+    "five_minute_continuity": true
+  },
+  {
+    "boundary_year": 2022,
+    "station_id": "S77",
+    "previous_last_timestamp": "2021-12-31T23:55:00+08:00",
+    "next_first_timestamp": "2022-01-01T00:00:00+08:00",
+    "gap_seconds": 300.0,
+    "five_minute_continuity": true
+  },
+  {
+    "boundary_year": 2022,
+    "station_id": "S109",
+    "previous_last_timestamp": "2021-12-31T23:55:00+08:00",
+    "next_first_timestamp": "2022-01-01T00:00:00+08:00",
+    "gap_seconds": 300.0,
+    "five_minute_continuity": true
+  },
+  {
+    "boundary_year": 2022,
+    "station_id": "S64",
+    "previous_last_timestamp": null,
+    "next_first_timestamp": null,
+    "gap_seconds": null,
+    "five_minute_continuity": false
+  },
+  {
+    "boundary_year": 2022,
+    "station_id": "S90",
+    "previous_last_timestamp": "2021-12-31T23:55:00+08:00",
+    "next_first_timestamp": "2022-01-01T00:00:00+08:00",
+    "gap_seconds": 300.0,
+    "five_minute_continuity": true
+  },
+  {
+    "boundary_year": 2023,
+    "station_id": "S77",
+    "previous_last_timestamp": "2022-12-31T23:55:00+08:00",
+    "next_first_timestamp": "2023-01-01T00:00:00+08:00",
+    "gap_seconds": 300.0,
+    "five_minute_continuity": true
+  },
+  {
+    "boundary_year": 2023,
+    "station_id": "S109",
+    "previous_last_timestamp": "2022-12-31T23:55:00+08:00",
+    "next_first_timestamp": "2023-01-01T00:00:00+08:00",
+    "gap_seconds": 300.0,
+    "five_minute_continuity": true
+  },
+  {
+    "boundary_year": 2023,
+    "station_id": "S64",
+    "previous_last_timestamp": "2022-12-31T23:55:00+08:00",
+    "next_first_timestamp": "2023-01-01T00:00:00+08:00",
+    "gap_seconds": 300.0,
+    "five_minute_continuity": true
+  },
+  {
+    "boundary_year": 2023,
+    "station_id": "S90",
+    "previous_last_timestamp": "2022-12-31T23:55:00+08:00",
+    "next_first_timestamp": "2023-01-01T00:00:00+08:00",
+    "gap_seconds": 300.0,
+    "five_minute_continuity": true
+  },
+  {
+    "boundary_year": 2024,
+    "station_id": "S77",
+    "previous_last_timestamp": "2023-12-31T23:55:00+08:00",
+    "next_first_timestamp": "2024-01-01T00:00:00+08:00",
+    "gap_seconds": 300.0,
+    "five_minute_continuity": true
+  },
+  {
+    "boundary_year": 2024,
+    "station_id": "S109",
+    "previous_last_timestamp": "2023-12-31T23:55:00+08:00",
+    "next_first_timestamp": "2024-01-01T00:00:00+08:00",
+    "gap_seconds": 300.0,
+    "five_minute_continuity": true
+  },
+  {
+    "boundary_year": 2024,
+    "station_id": "S64",
+    "previous_last_timestamp": "2023-12-31T23:55:00+08:00",
+    "next_first_timestamp": "2024-01-01T00:00:00+08:00",
+    "gap_seconds": 300.0,
+    "five_minute_continuity": true
+  },
+  {
+    "boundary_year": 2024,
+    "station_id": "S90",
+    "previous_last_timestamp": "2023-12-31T23:55:00+08:00",
+    "next_first_timestamp": "2024-01-01T00:00:00+08:00",
+    "gap_seconds": 300.0,
+    "five_minute_continuity": true
+  }
+]

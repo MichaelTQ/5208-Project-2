@@ -1,0 +1,122 @@
+[
+  {
+    "name": "01_calendar_coverage",
+    "png": "artifacts/stage3/figures/01_calendar_coverage.png",
+    "pdf": "artifacts/stage3/figures/01_calendar_coverage.pdf",
+    "png_size": [
+      1903,
+      3119
+    ],
+    "data_sources": [
+      {
+        "path": "artifacts/stage3/tables/all_station_year.csv",
+        "sha256": "273421087f9b897bff3b2321b96676c0b4e8db5550f3b9f86522f5f3fc07fb2c"
+      }
+    ],
+    "interpretation": "All 91 IDs and all eight years; annual calendar denominators, zero observations are not zero rainfall."
+  },
+  {
+    "name": "02_annual_support_comparison",
+    "png": "artifacts/stage3/figures/02_annual_support_comparison.png",
+    "pdf": "artifacts/stage3/figures/02_annual_support_comparison.pdf",
+    "png_size": [
+      2360,
+      1532
+    ],
+    "data_sources": [
+      {
+        "path": "artifacts/stage3/tables/network_year.csv",
+        "sha256": "844348767b76cf9aaf49caef2c160c4186fadb457ad4678528769c3187ce2f6d"
+      },
+      {
+        "path": "artifacts/stage3/tables/cohort_year.csv",
+        "sha256": "c431cd797d7854863e5a9fd927837f0f07be97bbea357bcddf55ad00a4259ee3"
+      },
+      {
+        "path": "artifacts/stage3/tables/station_matched_annual.csv",
+        "sha256": "1b9a0a1ca7257fad19a3c98575289b8fc0ee59fbb6ed39d8afe7acc1be7fb09e"
+      },
+      {
+        "path": "artifacts/stage3/tables/global_matched_annual.csv",
+        "sha256": "84f2dae87f62c6039b23f00c38c30e9a24a48911967539dc5a990b2fda52eaf4"
+      }
+    ],
+    "interpretation": "Primary station-specific support controls within-station calendar positions; joint support only covers five months and gives a different ordering."
+  },
+  {
+    "name": "03_calendar_support_distribution",
+    "png": "artifacts/stage3/figures/03_calendar_support_distribution.png",
+    "pdf": "artifacts/stage3/figures/03_calendar_support_distribution.pdf",
+    "png_size": [
+      2360,
+      1280
+    ],
+    "data_sources": [
+      {
+        "path": "artifacts/stage3/tables/station_support_months.csv",
+        "sha256": "f3193948cbdbaaa8617482233c08722d77ef1a0eec81313b0a1f1c1a6fd502f6"
+      },
+      {
+        "path": "artifacts/stage3/tables/global_support_months.csv",
+        "sha256": "8cb9f89330ae0b3b1407f3575767ace4ea976dff789b2e6b4525e8b84f704697"
+      }
+    ],
+    "interpretation": "Support distributions are observation availability, not monthly rainfall patterns; the joint panel is seasonally restricted."
+  },
+  {
+    "name": "04_station_differences",
+    "png": "artifacts/stage3/figures/04_station_differences.png",
+    "pdf": "artifacts/stage3/figures/04_station_differences.pdf",
+    "png_size": [
+      2180,
+      1460
+    ],
+    "data_sources": [
+      {
+        "path": "artifacts/stage3/tables/global_matched_pooled.csv",
+        "sha256": "dae3ff142bb80173d8abb9704842c1617359fb30c945e8ed989badf852323e8b"
+      },
+      {
+        "path": "artifacts/stage3/tables/cohort_metadata.csv",
+        "sha256": "cdc56e39c6ef4ccb3937e0578cf426e452446d44c9bd478a79e73addf28c1cf7"
+      }
+    ],
+    "interpretation": "Spatial comparison uses exactly the same calendar positions for all 20 stations; rankings only describe this five-month subset."
+  },
+  {
+    "name": "05_station_locations",
+    "png": "artifacts/stage3/figures/05_station_locations.png",
+    "pdf": "artifacts/stage3/figures/05_station_locations.pdf",
+    "png_size": [
+      1817,
+      1324
+    ],
+    "data_sources": [
+      {
+        "path": "artifacts/stage3/tables/global_matched_pooled.csv",
+        "sha256": "dae3ff142bb80173d8abb9704842c1617359fb30c945e8ed989badf852323e8b"
+      },
+      {
+        "path": "artifacts/stage3/tables/cohort_metadata.csv",
+        "sha256": "cdc56e39c6ef4ccb3937e0578cf426e452446d44c9bd478a79e73addf28c1cf7"
+      }
+    ],
+    "interpretation": "Coordinates of fixed-cohort station points; no interpolated surface and no claim of area-weighted national rainfall."
+  },
+  {
+    "name": "06_wet_reading_quantiles",
+    "png": "artifacts/stage3/figures/06_wet_reading_quantiles.png",
+    "pdf": "artifacts/stage3/figures/06_wet_reading_quantiles.pdf",
+    "png_size": [
+      1820,
+      1058
+    ],
+    "data_sources": [
+      {
+        "path": "artifacts/stage3/tables/network_year.csv",
+        "sha256": "844348767b76cf9aaf49caef2c160c4186fadb457ad4678528769c3187ce2f6d"
+      }
+    ],
+    "interpretation": "Conditional wet reading distribution, approximate quantiles; unbalanced network observation support varies by year."
+  }
+]

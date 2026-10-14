@@ -1,0 +1,16 @@
+{
+  "contract_version": "1.0",
+  "shuffle_partitions": 64,
+  "max_records_per_file": 1000000,
+  "interval_seconds": 300,
+  "allowed_grid_remainders_seconds": [0, 299],
+  "alignment_rule": "Exact five-minute timestamps stay unchanged; timestamps exactly one second before a five-minute boundary move forward by one second; other offsets are quarantined.",
+  "interval_semantics": "research_convention_end_timestamp_not_officially_confirmed",
+  "rainfall_decimal_precision": 20,
+  "rainfall_decimal_scale": 9,
+  "extreme_review_threshold_mm_per_5min": 20,
+  "location_change_review_distance_m": 100,
+  "long_gap_threshold_minutes": 60,
+  "study_start_sgt": "2017-01-01 00:00:00",
+  "study_end_exclusive_sgt": "2025-01-01 00:00:00"
+}

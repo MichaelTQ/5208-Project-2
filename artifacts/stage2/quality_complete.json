@@ -1,0 +1,12 @@
+{
+  "completed_at_sgt": "2026-10-10T22:46:49+08:00",
+  "elapsed_seconds": 43.06,
+  "stations": 91,
+  "location_review_station_ids": [],
+  "gaps": {
+    "internal_gaps": 195591,
+    "internal_missing_slots": 7514757,
+    "cross_year_gaps": 37,
+    "long_gaps_at_least_60_missing_minutes": 11920
+  }
+}

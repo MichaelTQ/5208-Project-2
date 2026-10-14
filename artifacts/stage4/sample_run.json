@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "scope": "A only",
+  "mode": "sample",
+  "started_at_sgt": "2026-10-11T13:09:58+08:00",
+  "steps": [
+    {
+      "script": "scripts/preflight.py",
+      "return_code": 0,
+      "elapsed_seconds": 4.26,
+      "log": "01_preflight.py.log"
+    },
+    {
+      "script": "scripts/smoke_sample.py",
+      "return_code": 0,
+      "elapsed_seconds": 5.82,
+      "log": "02_smoke_sample.py.log"
+    }
+  ],
+  "finished_at_sgt": "2026-10-11T13:10:08+08:00",
+  "elapsed_seconds": 10.08,
+  "run_directory": "artifacts/stage4/runs/20261011_130958_c8dae0bc"
+}

@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "checked_at_sgt": "2026-10-11T18:52:43+08:00",
+  "elapsed_seconds": 45.1,
+  "checks": {
+    "all_station_years_and_network_reconcile_with_stage2": true,
+    "observed_denominators_exact_amounts_and_extreme_sensitivity": true,
+    "coverage_only_cohort_and_threshold_sensitivity": true,
+    "eight_year_calendar_support_complete_unique_and_source_exact": true,
+    "global_calendar_support_and_panel_membership": true,
+    "panel_amounts_rates_and_equal_station_weighting": true,
+    "restricted_global_support_not_used_as_full_year_primary": true,
+    "all_station_year_wet_quantiles_within_empirical_rank_bounds": true,
+    "stage2_parquet_unchanged": true,
+    "six_png_pdf_figures_and_their_source_fingerprints": true,
+    "six_analytical_boundary_tests": true
+  },
+  "cohort_stations": 20,
+  "matched_rows": 10545560,
+  "global_rows": 636160,
+  "global_calendar_keys": 3976,
+  "figures": 6,
+  "boundary_tests": 6
+}

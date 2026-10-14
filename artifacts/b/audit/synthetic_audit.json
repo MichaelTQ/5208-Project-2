@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "scope": "bounded window diagnostic; no validation of preprocessing fit or C model",
+  "checked_at_sgt": "2026-10-14T16:45:34+08:00",
+  "queries": 21,
+  "inputs": [
+    {
+      "path": "data/handoff/stage6_window_checks/synthetic_observations.csv",
+      "sha256": "dab5d49893bfe58a8f6194d758972a42e907aa22eb27fa2dbe1553dd714908c2"
+    },
+    {
+      "path": "data/handoff/stage6_window_checks/synthetic_queries.csv",
+      "sha256": "c97b094d3b09b46b0ba19e679670a1f68ab42500627ce4946b9f31688559007e"
+    },
+    {
+      "path": "/Users/michael/Desktop/DSA5208/5208_project2/5208 Project 2/config/window_audit.json",
+      "sha256": "f381309c52487fffe936793396da222ab6b0ff898d95cd1a3620ad569c403b9c"
+    }
+  ],
+  "actual_sha256": "5d8121014338aabe2381335630b03e9b5ded60c0b09242825b372eadab5a9c03",
+  "mismatches": [],
+  "expected_answers": null
+}

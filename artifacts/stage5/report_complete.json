@@ -1,0 +1,34 @@
+{
+  "completed_at_sgt": "2026-10-11T18:52:43+08:00",
+  "scope": "A report only; B/C models not delivered",
+  "outputs": [
+    {
+      "path": "docs/REPORT_A_FULL.md",
+      "sha256": "1aa0854186fc7d97f1d070330fe72c3d643beb9587f6d89daf27a7659feda479"
+    },
+    {
+      "path": "artifacts/stage5/claim_evidence.csv",
+      "sha256": "f112cb54cb5858f811a7116d4c349f32e375ec918d55e0d15187a3b59ca7f3d9"
+    },
+    {
+      "path": "artifacts/stage5/figure_captions.csv",
+      "sha256": "70a504ef64d185f4ce8777bca693829003d1ec4f5120adab788e92bc016246c4"
+    },
+    {
+      "path": "artifacts/stage5/rank_correlations.csv",
+      "sha256": "7292b6c967f461c857b90fbcd0346cb94d5c3237282c3843dfdab5ba2ed8daa8"
+    },
+    {
+      "path": "artifacts/stage5/station_rank_by_year.csv",
+      "sha256": "9b5fd1e5899cdd65795e16d96d4237e6112548916cc8c1e902355c569a4f7acc"
+    },
+    {
+      "path": "artifacts/stage5/station_rank_summary.csv",
+      "sha256": "c6ab23d4ac0270f03f4ccdb383dff395072134e62342bae9eedfac009d8df6f0"
+    },
+    {
+      "path": "artifacts/stage5/report_facts.json",
+      "sha256": "70562f5f795d751e12371db468e3e156b197e186779ddcf608d91c709167e2da"
+    }
+  ]
+}

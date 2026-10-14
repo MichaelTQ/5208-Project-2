@@ -1,0 +1,85 @@
+{
+  "created_at_sgt": "2026-10-11T18:52:43+08:00",
+  "files": [
+    {
+      "path": "artifacts/stage1/final_verification.json",
+      "sha256": "5dce6c958fd5ff88b2a0e18c7249fbfbe88e2655150df52800995f01edd592c6"
+    },
+    {
+      "path": "artifacts/stage2/final_verification.json",
+      "sha256": "bc63cf18ce2b604ef3a681ca64acce1521014b10e872c0ef3e6fbe389df0c80f"
+    },
+    {
+      "path": "artifacts/stage2/clean_accounting.json",
+      "sha256": "de7e38c43f4a994c744269bd63d7e76069cefbacae7b89a1e670ff1533471317"
+    },
+    {
+      "path": "artifacts/stage2/gap_totals.json",
+      "sha256": "96c80e906ef5ae7439f3fe433feb7d192c08f5af437dc354d1c070ff4edc64af"
+    },
+    {
+      "path": "artifacts/stage2/ingest_complete.json",
+      "sha256": "6245a6091f49beff15b56d9b1528b8c35ddfd70ab338d0c7fd5d5ef0fcc450b5"
+    },
+    {
+      "path": "artifacts/stage2/clean_complete.json",
+      "sha256": "41d38f8cbaa49b493306d4ba3ab5603516e18509bea51d3a91ebc1cd427d4784"
+    },
+    {
+      "path": "artifacts/stage2/quality_complete.json",
+      "sha256": "9e8ea0009935940ed134653b5e7493d2ba7495b7afbc9822dbc4a72cce0dfd59"
+    },
+    {
+      "path": "artifacts/stage3/final_verification.json",
+      "sha256": "87728aafd21d9b751fde38fb8330b0833d9d2399857b3cbcc8b0c34f573928f8"
+    },
+    {
+      "path": "artifacts/stage3/analysis_complete.json",
+      "sha256": "f3231d66f26cff023df02d1de7037db56878151b112be3bd898ac6c058554d7c"
+    },
+    {
+      "path": "artifacts/stage3/findings.json",
+      "sha256": "f9c269168a9d4339bdf18d6b8fa239969f8a05334cebcb919767832d0db55685"
+    },
+    {
+      "path": "artifacts/stage3/figure_manifest.json",
+      "sha256": "0ce328dc9a286f9af8bc779a61a2119374b3b3b365c2bb771c7f0f34ec90b9aa"
+    },
+    {
+      "path": "artifacts/stage3/tables/station_matched_annual.csv",
+      "sha256": "1b9a0a1ca7257fad19a3c98575289b8fc0ee59fbb6ed39d8afe7acc1be7fb09e"
+    },
+    {
+      "path": "artifacts/stage3/tables/global_matched_year.csv",
+      "sha256": "8f0670151667b2b98ce160247a3dbeddc1a1c35ac5fd4915ea3d71462fde7af7"
+    },
+    {
+      "path": "artifacts/stage3/tables/global_matched_pooled.csv",
+      "sha256": "dae3ff142bb80173d8abb9704842c1617359fb30c945e8ed989badf852323e8b"
+    },
+    {
+      "path": "artifacts/stage3/tables/cohort_metadata.csv",
+      "sha256": "cdc56e39c6ef4ccb3937e0578cf426e452446d44c9bd478a79e73addf28c1cf7"
+    },
+    {
+      "path": "artifacts/stage3/tables/station_support_counts.csv",
+      "sha256": "07046143220423b6445a7978108843c77fa8678596cca7e52bde59fe553070c6"
+    },
+    {
+      "path": "artifacts/environment/environment.json",
+      "sha256": "95921bea53f011e5d59b7ea8ff22a44c912d525a3e7c6b4fcb45046b2f9b7e48"
+    },
+    {
+      "path": "config/project.json",
+      "sha256": "26e412421885f0649b18e427e6189eaad83cd15b2989bb899a67aa2c49366653"
+    },
+    {
+      "path": "config/stage2.json",
+      "sha256": "8fe782b3a50763c39528343e14e04eea51a9a1e2e176dc01de13a0ba8ba471ab"
+    },
+    {
+      "path": "config/stage3.json",
+      "sha256": "b669b98fe180962f2aeef7e6b08fd19c8c267ce0d5475592efd72bcf63a4dc45"
+    }
+  ]
+}

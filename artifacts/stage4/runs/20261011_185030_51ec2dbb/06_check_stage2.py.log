@@ -1,0 +1,7 @@
+Original CSV and clean Parquet fingerprints verified
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/10/11 18:51:07 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Final table independently checked: 48,538,625 unique valid keys
+Coverage and internal gaps independently reconciled
+Stage 2 independent acceptance: PASS

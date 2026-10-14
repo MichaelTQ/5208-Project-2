@@ -1,0 +1,17 @@
+.venv/
+.runtime/
+.cache/
+__pycache__/
+*.pyc
+data/raw/*.csv
+data/raw/*.part
+data/samples/parquet/
+data/stage2/
+data/analysis/
+data/clean/
+data/quarantine/
+data/handoff/stage2_sample/
+artifacts/stage2/gaps/
+artifacts/stage2/coverage_daily/
+artifacts/spark-local/
+.DS_Store

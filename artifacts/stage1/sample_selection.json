@@ -1,0 +1,194 @@
+{
+  "generated_at_sgt": "2026-10-10T22:23:17+08:00",
+  "method": "All original records for four station IDs on first/last observed dates and earliest wet date in each year; overlapping dates are included once.",
+  "raw_columns_unchanged": true,
+  "profiles": [
+    {
+      "year": 2017,
+      "row_count": 5256106,
+      "malformed_width_records": 0,
+      "first_timestamp_lexical": "2017-01-01T08:04:59+08:00",
+      "last_timestamp_lexical": "2017-12-31T23:55:00+08:00",
+      "selected_station_ids": [
+        "S109",
+        "S64",
+        "S77",
+        "S90"
+      ],
+      "selected_dates": [
+        "2017-01-01",
+        "2017-12-31"
+      ],
+      "first_wet_date_for_selected_stations": "2017-01-01",
+      "sample_path": "data/samples/raw/rainfall_2017_sample.csv",
+      "sample_rows": 1898,
+      "sample_sha256": "81ac87a5cc42413599e3a93b433ba42da0476570cdb5f255c3455d46f65c6717",
+      "elapsed_seconds": 8.11,
+      "scope": "Full-file logical record count/header/width; other quality checks are sample-only."
+    },
+    {
+      "year": 2018,
+      "row_count": 4594246,
+      "malformed_width_records": 0,
+      "first_timestamp_lexical": "2018-01-01T00:00:00+08:00",
+      "last_timestamp_lexical": "2018-12-31T23:55:00+08:00",
+      "selected_station_ids": [
+        "S109",
+        "S64",
+        "S77",
+        "S90"
+      ],
+      "selected_dates": [
+        "2018-01-01",
+        "2018-12-31"
+      ],
+      "first_wet_date_for_selected_stations": "2018-01-01",
+      "sample_path": "data/samples/raw/rainfall_2018_sample.csv",
+      "sample_rows": 2003,
+      "sample_sha256": "c6514210aed36194e79f451ae1ccb7a95c485cb6b65b4bdfb5f8dfbd5df5409c",
+      "elapsed_seconds": 7.12,
+      "scope": "Full-file logical record count/header/width; other quality checks are sample-only."
+    },
+    {
+      "year": 2019,
+      "row_count": 5026862,
+      "malformed_width_records": 0,
+      "first_timestamp_lexical": "2019-01-01T00:00:00+08:00",
+      "last_timestamp_lexical": "2019-12-31T23:55:00+08:00",
+      "selected_station_ids": [
+        "S109",
+        "S64",
+        "S77",
+        "S90"
+      ],
+      "selected_dates": [
+        "2019-01-01",
+        "2019-12-31"
+      ],
+      "first_wet_date_for_selected_stations": "2019-01-01",
+      "sample_path": "data/samples/raw/rainfall_2019_sample.csv",
+      "sample_rows": 2016,
+      "sample_sha256": "7fb3ae7797b5eef6105d7c0d101ae35bbb2b459569bae89908c6bedaccdbbb17",
+      "elapsed_seconds": 7.88,
+      "scope": "Full-file logical record count/header/width; other quality checks are sample-only."
+    },
+    {
+      "year": 2020,
+      "row_count": 6334473,
+      "malformed_width_records": 0,
+      "first_timestamp_lexical": "2020-01-01T00:00:00+08:00",
+      "last_timestamp_lexical": "2020-12-31T23:55:00+08:00",
+      "selected_station_ids": [
+        "S109",
+        "S64",
+        "S77",
+        "S90"
+      ],
+      "selected_dates": [
+        "2020-01-01",
+        "2020-01-03",
+        "2020-12-31"
+      ],
+      "first_wet_date_for_selected_stations": "2020-01-03",
+      "sample_path": "data/samples/raw/rainfall_2020_sample.csv",
+      "sample_rows": 3163,
+      "sample_sha256": "4a5c96825238c30aa2ca6be835a0064894dd19ba092a4f11f98e7d9da1db97e4",
+      "elapsed_seconds": 9.64,
+      "scope": "Full-file logical record count/header/width; other quality checks are sample-only."
+    },
+    {
+      "year": 2021,
+      "row_count": 7044646,
+      "malformed_width_records": 0,
+      "first_timestamp_lexical": "2021-01-01T00:00:00+08:00",
+      "last_timestamp_lexical": "2021-12-31T23:55:00+08:00",
+      "selected_station_ids": [
+        "S109",
+        "S64",
+        "S77",
+        "S90"
+      ],
+      "selected_dates": [
+        "2021-01-01",
+        "2021-12-31"
+      ],
+      "first_wet_date_for_selected_stations": "2021-01-01",
+      "sample_path": "data/samples/raw/rainfall_2021_sample.csv",
+      "sample_rows": 1150,
+      "sample_sha256": "6d31e8c8831c6c198c87b06b45953975750c615275dd3730675127479baf6f72",
+      "elapsed_seconds": 10.98,
+      "scope": "Full-file logical record count/header/width; other quality checks are sample-only."
+    },
+    {
+      "year": 2022,
+      "row_count": 7133230,
+      "malformed_width_records": 0,
+      "first_timestamp_lexical": "2022-01-01T00:00:00+08:00",
+      "last_timestamp_lexical": "2022-12-31T23:55:00+08:00",
+      "selected_station_ids": [
+        "S109",
+        "S64",
+        "S77",
+        "S90"
+      ],
+      "selected_dates": [
+        "2022-01-01",
+        "2022-12-31"
+      ],
+      "first_wet_date_for_selected_stations": "2022-01-01",
+      "sample_path": "data/samples/raw/rainfall_2022_sample.csv",
+      "sample_rows": 2016,
+      "sample_sha256": "72422e50e74740e816f44231481c6f5730a3cb1377c50d35497409aaeb2223ec",
+      "elapsed_seconds": 11.82,
+      "scope": "Full-file logical record count/header/width; other quality checks are sample-only."
+    },
+    {
+      "year": 2023,
+      "row_count": 6742890,
+      "malformed_width_records": 0,
+      "first_timestamp_lexical": "2023-01-01T00:00:00+08:00",
+      "last_timestamp_lexical": "2023-12-31T23:55:00+08:00",
+      "selected_station_ids": [
+        "S109",
+        "S64",
+        "S77",
+        "S90"
+      ],
+      "selected_dates": [
+        "2023-01-01",
+        "2023-01-10",
+        "2023-12-31"
+      ],
+      "first_wet_date_for_selected_stations": "2023-01-10",
+      "sample_path": "data/samples/raw/rainfall_2023_sample.csv",
+      "sample_rows": 2164,
+      "sample_sha256": "5e744a783eb84830c5e8be9bbd440d059bcf33880b00f3852ed3466d85163bf4",
+      "elapsed_seconds": 10.5,
+      "scope": "Full-file logical record count/header/width; other quality checks are sample-only."
+    },
+    {
+      "year": 2024,
+      "row_count": 6406260,
+      "malformed_width_records": 0,
+      "first_timestamp_lexical": "2024-01-01T00:00:00+08:00",
+      "last_timestamp_lexical": "2024-12-31T23:55:00+08:00",
+      "selected_station_ids": [
+        "S109",
+        "S64",
+        "S77",
+        "S90"
+      ],
+      "selected_dates": [
+        "2024-01-01",
+        "2024-12-31"
+      ],
+      "first_wet_date_for_selected_stations": "2024-01-01",
+      "sample_path": "data/samples/raw/rainfall_2024_sample.csv",
+      "sample_rows": 2302,
+      "sample_sha256": "b34d3942d3fb94a8efd46c9eeb640ebdf4a42ccfe369173ec92b23d41fa238f6",
+      "elapsed_seconds": 10.08,
+      "scope": "Full-file logical record count/header/width; other quality checks are sample-only."
+    }
+  ],
+  "warning": "Development fixtures only; weather-biased selection is not a modelling sample or a representative climate sample."
+}

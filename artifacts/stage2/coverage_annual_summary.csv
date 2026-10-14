@@ -1,0 +1,9 @@
+observation_year,all_station_ids,stations_with_observations,stations_calendar_coverage_ge_95pct,stations_calendar_coverage_ge_90pct,observed_slots
+2017,91,62,24,40,5256018
+2018,91,56,0,0,4594246
+2019,91,54,25,41,5026862
+2020,91,80,24,42,6334473
+2021,91,76,62,66,7044646
+2022,91,72,63,66,7133230
+2023,91,74,53,59,6742890
+2024,91,70,47,56,6406260

@@ -1,0 +1,15 @@
+{
+  "source_year": 2018,
+  "min_update_delay_seconds": 122,
+  "min_rainfall_mm": "0E-9",
+  "min_reading_update_delay_seconds": 122,
+  "parsed_rainfall_sum_mm": "115162.612100000",
+  "max_reading_update_delay_seconds": 41806838,
+  "max_rainfall_mm": "15.600000000",
+  "one_second_offset_rows": 0,
+  "extreme_candidates": 0,
+  "max_update_delay_seconds": 41806838,
+  "raw_rows": 4594246,
+  "invalid_rows": 0,
+  "elapsed_seconds": 17.66
+}

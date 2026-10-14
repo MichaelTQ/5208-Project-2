@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "scope": "A only; B/C integration pending their delivered code",
+  "modes": {
+    "preflight": ["scripts/preflight.py"],
+    "sample": ["scripts/preflight.py", "scripts/smoke_sample.py"],
+    "verify": ["scripts/preflight.py", "scripts/smoke_sample.py", "scripts/verify_spark.py", "scripts/check_stage1.py", "tests/test_stage2_spark.py", "scripts/check_stage2.py", "scripts/write_stage2_report.py", "tests/test_stage3_spark.py", "scripts/check_stage3.py", "scripts/write_stage3_report.py", "scripts/stage5_report.py", "scripts/check_stage5.py", "scripts/stage6_fixtures.py", "tests/test_window_audit.py", "scripts/stage6_spark_check.py", "scripts/check_stage6.py"],
+    "rebuild": ["scripts/preflight.py", "scripts/fetch_data.py", "scripts/extract_samples.py", "scripts/verify_spark.py", "scripts/check_stage1.py", "scripts/stage2_ingest.py", "scripts/stage2_clean.py", "scripts/stage2_quality.py", "tests/test_stage2_spark.py", "scripts/check_stage2.py", "scripts/write_stage2_report.py", "scripts/stage3_support_probe.py", "scripts/stage3_analyze.py", "scripts/stage3_figures.py", "tests/test_stage3_spark.py", "scripts/check_stage3.py", "scripts/write_stage3_report.py", "scripts/smoke_sample.py", "scripts/stage5_report.py", "scripts/check_stage5.py", "scripts/stage6_fixtures.py", "tests/test_window_audit.py", "scripts/stage6_spark_check.py", "scripts/check_stage6.py"],
+    "report": ["scripts/stage5_report.py", "scripts/check_stage5.py"],
+    "window-check": ["scripts/preflight.py", "scripts/stage6_fixtures.py", "tests/test_window_audit.py", "scripts/stage6_spark_check.py", "scripts/check_stage6.py"]
+  },
+  "external_modules": {
+    "B": {"status": "NOT_DELIVERED", "responsibilities": ["within-year analysis", "labels and historical features", "baselines"]},
+    "C": {"status": "NOT_DELIVERED", "responsibilities": ["model training", "evaluation", "model loading and prediction"]}
+  }
+}

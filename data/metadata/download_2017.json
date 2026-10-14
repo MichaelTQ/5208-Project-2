@@ -1,0 +1,11 @@
+{
+  "downloaded_at_sgt": "2026-10-10T22:15:47+08:00",
+  "size_bytes": 881206891,
+  "sha256": "a51a27378607c6c37d51b72383259b27dae5dc7d5760a8b8fff04e86d9f92ddf",
+  "official_row_count": 5256106,
+  "catalogue_size_bytes": 1007353435,
+  "export_size_bytes": 881206891,
+  "integrity": "HTTP export length verified; local SHA-256 recorded; logical row count checked by extract_samples.py",
+  "row_count": 5256106,
+  "header_verified": true
+}

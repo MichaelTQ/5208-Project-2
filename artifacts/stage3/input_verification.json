@@ -1,0 +1,42 @@
+{
+  "checked_at_sgt": "2026-10-10T23:20:34+08:00",
+  "files": 96,
+  "rows": 48538625,
+  "all_sha256_match": true,
+  "stage2_verification_sha256": "188425630be81b94556409a77daabdcfee3d255f8042cf3f4ea0d782ca62ab58",
+  "configuration": {
+    "analysis_version": "1.0",
+    "minimum_calendar_coverage_each_year": 0.8,
+    "coverage_threshold_sensitivity": [
+      0.7,
+      0.75,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "require_single_coordinate_variant": true,
+    "years": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "exclude_feb29_from_calendar_matching": true,
+    "calendar_key_format": "MM-dd HH:mm",
+    "wet_reading_condition": "rainfall_mm > 0",
+    "wet_quantile_probabilities": [
+      0.5,
+      0.9,
+      0.99
+    ],
+    "wet_quantile_accuracy": 10000,
+    "extreme_sensitivity_threshold_mm_per_5min": 20,
+    "comparison_purpose": "descriptive_only_not_model_station_selection",
+    "minimum_global_matched_slots_for_primary_comparison": 1000,
+    "minimum_months_in_global_support": 12
+  }
+}

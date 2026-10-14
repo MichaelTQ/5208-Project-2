@@ -1,0 +1,70 @@
+{
+  "status": "READY_FOR_B",
+  "checked_at_sgt": "2026-10-11T19:03:42+08:00",
+  "A_independent_work_complete": true,
+  "whole_project_accepted": false,
+  "external_BC_status": "NOT_DELIVERED",
+  "work_packages": {
+    "A1_data_environment": "COMPLETE",
+    "A2_cleaning_quality": "COMPLETE",
+    "A3_cross_year_station_analysis": "COMPLETE",
+    "A4_readme_run_handoff": "COMPLETE",
+    "A5_report_contribution": "COMPLETE",
+    "A6_independent_cross_check_kit": "COMPLETE",
+    "A6_actual_BC_integration": "PENDING_DELIVERY"
+  },
+  "stage_checks": {
+    "1": {
+      "status": "PASS",
+      "scope": "A1 source/environment",
+      "checks": null,
+      "unit_tests": 5,
+      "spark_assertions": 10
+    },
+    "2": {
+      "status": "PASS",
+      "scope": "A2 cleaning/quality",
+      "checks": 8
+    },
+    "3": {
+      "status": "PASS",
+      "scope": "A3 descriptive analysis",
+      "checks": 11
+    },
+    "4": {
+      "status": "PASS",
+      "scope": "A4 reproducibility and handoff readiness only",
+      "checks": 12
+    },
+    "5": {
+      "status": "PASS",
+      "scope": "A5 report contribution",
+      "checks": 9
+    },
+    "6": {
+      "status": "PASS",
+      "scope": "A6 independent audit preparation only",
+      "checks": 8
+    }
+  },
+  "core_files": 445,
+  "core_bytes": 4249058892,
+  "optional_raw_bytes": 8047044701,
+  "handoff_manifest_sha256": "dcaa20fd82e4b2257f1822afe983931693a64a4cd38c7d87cdc87dd207552022",
+  "zip_status": "NOT_CREATED_AWAITING_USER_REQUEST",
+  "required_later": [
+    "B actual window exports and full label/feature code",
+    "training-only preprocessing fit review",
+    "C saved-model load and prediction",
+    "full project run after B/C delivery"
+  ],
+  "verification_seal_files": [
+    "artifacts/stage4/handoff_manifest.json",
+    "artifacts/stage4/storage_inventory.json",
+    "artifacts/stage4/manifest_verification.json",
+    "artifacts/stage4/final_verification.json",
+    "artifacts/stage4/STAGE_4_CHECK_REPORT.md",
+    "artifacts/A_FINAL_STATUS.json",
+    "artifacts/A_FINAL_CHECK_REPORT.md"
+  ]
+}

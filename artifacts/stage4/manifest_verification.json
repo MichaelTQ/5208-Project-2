@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "checked_at_sgt": "2026-10-11T19:03:36+08:00",
+  "manifest_sha256": "dcaa20fd82e4b2257f1822afe983931693a64a4cd38c7d87cdc87dd207552022",
+  "files_verified": 453,
+  "bytes_verified": 12296103593,
+  "optional_raw_verified": true
+}

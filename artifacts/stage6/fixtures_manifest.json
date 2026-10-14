@@ -1,0 +1,89 @@
+{
+  "created_at_sgt": "2026-10-11T18:52:44+08:00",
+  "scope": "synthetic and bounded real sample audit fixtures, not full labels",
+  "generator_sha256": "6d033ae50e7063e6065f9f26187b2abdd484e7a33d5808c5e0728904e2f471e4",
+  "synthetic_queries": 21,
+  "real_queries": 15,
+  "real_source_rows": 16712,
+  "real_source_csv_sha256": "5f0e9892503d5ff575ecc2803e7e76c78b4ef1c0b4709474a5e6b3e15f9d50a1",
+  "preserved_figure_files": [
+    {
+      "path": "artifacts/stage3/figures/01_calendar_coverage.pdf",
+      "sha256": "76589251662874782d85462029483e95660bf3e5d697dc282eb295ef21d44c5a"
+    },
+    {
+      "path": "artifacts/stage3/figures/01_calendar_coverage.png",
+      "sha256": "db7c03be797ccca7b64d4783d7c1e4da64ddc56604a9af464ef99512bce9f8d8"
+    },
+    {
+      "path": "artifacts/stage3/figures/02_annual_support_comparison.pdf",
+      "sha256": "6f8eb71297863a0c2b3a6ed4b7a5b3626805a1bf7220d9a0644d3be719ae1995"
+    },
+    {
+      "path": "artifacts/stage3/figures/02_annual_support_comparison.png",
+      "sha256": "573317ba4fd358f6771545a2c339a7db168a4236a57dd6130fdb913cbbd68c7d"
+    },
+    {
+      "path": "artifacts/stage3/figures/03_calendar_support_distribution.pdf",
+      "sha256": "ef626357c532502d8f72e4766e7d4ff39ef917cbcb951327f4df080a3a36c0ca"
+    },
+    {
+      "path": "artifacts/stage3/figures/03_calendar_support_distribution.png",
+      "sha256": "f87f820f032e2f8b25eff13459e99ededb0c63fae34a257f2cf3edd64e1ec85a"
+    },
+    {
+      "path": "artifacts/stage3/figures/04_station_differences.pdf",
+      "sha256": "534d7f86f297c8f6fe840ab24828cb34fe46dc149e0d26ed3f1e25095dfd73f8"
+    },
+    {
+      "path": "artifacts/stage3/figures/04_station_differences.png",
+      "sha256": "a9038b9bffc38d02e03596e64233ba383cdfddf5f72a053321e49b15450ba195"
+    },
+    {
+      "path": "artifacts/stage3/figures/05_station_locations.pdf",
+      "sha256": "1446ce382f72083d970acc2d72a3bf3dd2c3f4b512f9bd44f4771a1c11bf88ab"
+    },
+    {
+      "path": "artifacts/stage3/figures/05_station_locations.png",
+      "sha256": "2860c3b6a02b7f7fca76b5bfb19bfaf64f3685c186eb930075be3a9c4c7c5331"
+    },
+    {
+      "path": "artifacts/stage3/figures/06_wet_reading_quantiles.pdf",
+      "sha256": "a27e852778895f0d7550c82e76012e66168e62c3a12662c88ee9c1999c284613"
+    },
+    {
+      "path": "artifacts/stage3/figures/06_wet_reading_quantiles.png",
+      "sha256": "6ca030e00c879c0a917b9077bb25b2588617b6a62d7a0455e3a2b49a2dac13c5"
+    }
+  ],
+  "files": [
+    {
+      "path": "data/handoff/stage6_window_checks/real_observations.csv",
+      "sha256": "d9917113b7ae3e1c6cd8f17065d0eb46c8d6159413059ec93fcc51677958386c"
+    },
+    {
+      "path": "data/handoff/stage6_window_checks/real_queries.csv",
+      "sha256": "b5fc8f083a4543f90bbdbbdbec918d317362e91c368d13be22b8eccab1cc702c"
+    },
+    {
+      "path": "data/handoff/stage6_window_checks/synthetic_observations.csv",
+      "sha256": "dab5d49893bfe58a8f6194d758972a42e907aa22eb27fa2dbe1553dd714908c2"
+    },
+    {
+      "path": "data/handoff/stage6_window_checks/synthetic_queries.csv",
+      "sha256": "c97b094d3b09b46b0ba19e679670a1f68ab42500627ce4946b9f31688559007e"
+    },
+    {
+      "path": "data/handoff/stage6_window_checks/real_expected.json",
+      "sha256": "a73696f859dec6f4c96f8a78c1ad7bba0c8e0614f0373f1b1362946551dbb249"
+    },
+    {
+      "path": "data/handoff/stage6_window_checks/synthetic_expected.json",
+      "sha256": "5d8121014338aabe2381335630b03e9b5ded60c0b09242825b372eadab5a9c03"
+    },
+    {
+      "path": "config/window_audit.json",
+      "sha256": "f381309c52487fffe936793396da222ab6b0ff898d95cd1a3620ad569c403b9c"
+    }
+  ]
+}

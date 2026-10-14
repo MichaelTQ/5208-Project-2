@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "checked_at_sgt": "2026-10-11T18:52:44+08:00",
+  "checks": {
+    "report_input_fingerprints_current": true,
+    "report_output_fingerprints_current": true,
+    "source_cleaning_exact_ledgers_and_quality_claims": true,
+    "every_report_annual_row_matches_verified_table": true,
+    "all_160_ranks_independently_recomputed_with_ties": true,
+    "rank_ranges_and_28_correlations_independently_verified": true,
+    "job_timings_trace_to_actual_records_not_end_to_end": true,
+    "six_figures_captions_and_local_evidence_links_resolve": true,
+    "scope_support_assumptions_and_AI_statement_explicit": true
+  },
+  "rank_rows": 160,
+  "rank_correlations": 28,
+  "figures": 6,
+  "report_words": 2160,
+  "external_BC_status": "NOT_DELIVERED"
+}

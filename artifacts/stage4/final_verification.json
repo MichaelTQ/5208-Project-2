@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "scope": "A4 reproducibility and handoff readiness only",
+  "checked_at_sgt": "2026-10-11T19:03:41+08:00",
+  "checks": {
+    "stage1_stage2_stage3_acceptance_pass": true,
+    "ordered_unified_verification_current_script_fingerprints": true,
+    "current_environment_and_actual_sgt_decimal_computation": true,
+    "real_sample_source_values_independent_amounts_and_roundtrips": true,
+    "relocated_sample_space_path_external_cwd_same_machine": true,
+    "eight_failure_and_integrity_boundary_tests": true,
+    "all_mode_previews_ordered_and_do_not_mutate_evidence": true,
+    "complete_core_and_optional_raw_inventory_all_sha256_verified": true,
+    "formal_parquet_96_files_match_independent_stage2_fingerprints": true,
+    "six_png_pdf_figures_and_source_tables_in_delivery": true,
+    "documentation_links_and_confirmed_lecture_decision": true,
+    "external_module_status_separate_from_A_acceptance": true
+  },
+  "verify_seconds": 142.02,
+  "sample_rows": 16712,
+  "boundary_tests": 8,
+  "core_files": 445,
+  "core_bytes": 4249058892,
+  "optional_raw_bytes": 8047044701,
+  "manifest_sha256": "dcaa20fd82e4b2257f1822afe983931693a64a4cd38c7d87cdc87dd207552022",
+  "external_integration_status": "NOT_DELIVERED",
+  "limitations": [
+    "verify checked existing A artifacts, not a new full raw-to-output rebuild",
+    "same-machine relocation reused A runtime; B/C machines not tested",
+    "B/C labels/features/model loading not tested without delivered code",
+    "ZIP not created; raw CSV inclusion to be decided later"
+  ]
+}

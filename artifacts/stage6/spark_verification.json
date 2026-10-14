@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "checked_at_sgt": "2026-10-11T18:52:49+08:00",
+  "scope": "A fixture/oracle cross-check only; B/C implementation not delivered",
+  "evidence": {
+    "synthetic": {
+      "queries": 21,
+      "fields_per_query": 16,
+      "all_exact_join_answers_match_oracle": true
+    },
+    "six_rows_counterexample": {
+      "counted_rows": 6,
+      "wrong_sum_mm": "1.200000000",
+      "oracle_future_complete": false,
+      "missing_slot": "2022-03-10T12:15:00+08:00",
+      "sixth_later_row_is_t_plus_35_minutes": true
+    },
+    "real": {
+      "queries": 15,
+      "fields_per_query": 16,
+      "all_exact_join_answers_match_oracle": true
+    }
+  },
+  "script_sha256": "526b92356b9ab35b5ac1124b6f0e1534ae2f728f4759a27a5718fc90c2db4ba8",
+  "oracle_sha256": "bbbcc0a15b8f54bd395d1af907996536f6fe12d4c7175121faa7844ffc6fd7f9",
+  "config_sha256": "f381309c52487fffe936793396da222ab6b0ff898d95cd1a3620ad569c403b9c"
+}

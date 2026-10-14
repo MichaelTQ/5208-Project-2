@@ -1,0 +1,301 @@
+{
+  "checked_at_sgt": "2026-10-11T18:50:46+08:00",
+  "scope": "Development sample only, not full-data quality assessment",
+  "rows": 16712,
+  "sample_checks": {
+    "malformed_csv": 0,
+    "invalid_observation_time": 0,
+    "invalid_update_time": 0,
+    "invalid_reading_update_time": 0,
+    "invalid_rainfall": 0,
+    "negative_rainfall": 0,
+    "zero_rainfall": 15046,
+    "positive_rainfall": 1666,
+    "invalid_coordinates": 0,
+    "missing_station_id": 0,
+    "date_observation_mismatch": 0
+  },
+  "year_counts": [
+    {
+      "source_year": 2017,
+      "count": 1898
+    },
+    {
+      "source_year": 2018,
+      "count": 2003
+    },
+    {
+      "source_year": 2019,
+      "count": 2016
+    },
+    {
+      "source_year": 2020,
+      "count": 3163
+    },
+    {
+      "source_year": 2021,
+      "count": 1150
+    },
+    {
+      "source_year": 2022,
+      "count": 2016
+    },
+    {
+      "source_year": 2023,
+      "count": 2164
+    },
+    {
+      "source_year": 2024,
+      "count": 2302
+    }
+  ],
+  "seconds_by_year": [
+    {
+      "source_year": 2017,
+      "second": 0,
+      "count": 1130
+    },
+    {
+      "source_year": 2017,
+      "second": 59,
+      "count": 768
+    },
+    {
+      "source_year": 2018,
+      "second": 0,
+      "count": 2003
+    },
+    {
+      "source_year": 2019,
+      "second": 0,
+      "count": 2016
+    },
+    {
+      "source_year": 2020,
+      "second": 0,
+      "count": 3163
+    },
+    {
+      "source_year": 2021,
+      "second": 0,
+      "count": 1150
+    },
+    {
+      "source_year": 2022,
+      "second": 0,
+      "count": 2016
+    },
+    {
+      "source_year": 2023,
+      "second": 0,
+      "count": 2164
+    },
+    {
+      "source_year": 2024,
+      "second": 0,
+      "count": 2302
+    }
+  ],
+  "stations": [
+    "S109",
+    "S64",
+    "S77",
+    "S90"
+  ],
+  "units": [
+    "mm"
+  ],
+  "reading_types": [
+    "TB1 Rainfall 5 Minute Total F"
+  ],
+  "duplicate_station_time_keys": 0,
+  "time_examples": [
+    {
+      "timestamp": "2017-01-01T08:04:59+08:00",
+      "epoch": 1483229099,
+      "sgt_display": "2017-01-01 08:04:59",
+      "python_epoch": 1483229099,
+      "year": 2017
+    },
+    {
+      "timestamp": "2018-01-01T00:00:00+08:00",
+      "epoch": 1514736000,
+      "sgt_display": "2018-01-01 00:00:00",
+      "python_epoch": 1514736000,
+      "year": 2018
+    },
+    {
+      "timestamp": "2019-01-01T00:00:00+08:00",
+      "epoch": 1546272000,
+      "sgt_display": "2019-01-01 00:00:00",
+      "python_epoch": 1546272000,
+      "year": 2019
+    },
+    {
+      "timestamp": "2020-01-01T00:00:00+08:00",
+      "epoch": 1577808000,
+      "sgt_display": "2020-01-01 00:00:00",
+      "python_epoch": 1577808000,
+      "year": 2020
+    },
+    {
+      "timestamp": "2021-01-01T00:00:00+08:00",
+      "epoch": 1609430400,
+      "sgt_display": "2021-01-01 00:00:00",
+      "python_epoch": 1609430400,
+      "year": 2021
+    },
+    {
+      "timestamp": "2022-01-01T00:00:00+08:00",
+      "epoch": 1640966400,
+      "sgt_display": "2022-01-01 00:00:00",
+      "python_epoch": 1640966400,
+      "year": 2022
+    },
+    {
+      "timestamp": "2023-01-01T00:00:00+08:00",
+      "epoch": 1672502400,
+      "sgt_display": "2023-01-01 00:00:00",
+      "python_epoch": 1672502400,
+      "year": 2023
+    },
+    {
+      "timestamp": "2024-01-01T00:00:00+08:00",
+      "epoch": 1704038400,
+      "sgt_display": "2024-01-01 00:00:00",
+      "python_epoch": 1704038400,
+      "year": 2024
+    }
+  ],
+  "assertions": {
+    "row_count_preserved": true,
+    "parquet_multiset_equal": true,
+    "timezone_epoch_and_display_verified_all_years": true,
+    "all_eight_years_present": true,
+    "all_four_selected_stations_present": true,
+    "rain_and_dry_examples_present": true,
+    "2017_second_offset_preserved": true,
+    "sample_has_no_parse_failures": true,
+    "sample_units_are_mm": true,
+    "sample_reading_type_is_5_minute_total": true
+  },
+  "schema": {
+    "type": "struct",
+    "fields": [
+      {
+        "name": "date",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "timestamp",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "update_timestamp",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "station_id",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "station_name",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "station_device_id",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "location_longitude",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "location_latitude",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "reading_update_timestamp",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "reading_value",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "reading_type",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "reading_unit",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "source_year",
+        "type": "integer",
+        "nullable": false,
+        "metadata": {}
+      },
+      {
+        "name": "observation_time",
+        "type": "timestamp",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "parsed_update_time",
+        "type": "timestamp",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "parsed_reading_update_time",
+        "type": "timestamp",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "rainfall_mm",
+        "type": "double",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "longitude",
+        "type": "double",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "latitude",
+        "type": "double",
+        "nullable": true,
+        "metadata": {}
+      }
+    ]
+  }
+}

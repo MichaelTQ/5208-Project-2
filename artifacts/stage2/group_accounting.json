@@ -1,0 +1,15 @@
+{
+  "candidate_keys": 48538627,
+  "candidate_rows": 48538713,
+  "conflicting_rows": 4,
+  "conflicting_keys": 2,
+  "clean_keys": 48538625,
+  "redundant_rows_removed": 84,
+  "exact_duplicate_rows_removed": 0,
+  "compatible_variant_rows_removed": 84,
+  "candidate_rainfall_sum_mm": "1228212.229440000",
+  "conflicting_rainfall_sum_mm": "0E-9",
+  "clean_rainfall_sum_mm": "1228210.429440000",
+  "redundant_rainfall_sum_mm": "1.800000000",
+  "max_source_records_per_key": 2
+}

@@ -1,0 +1,16 @@
+{
+  "analysis_version": "1.0",
+  "minimum_calendar_coverage_each_year": 0.8,
+  "coverage_threshold_sensitivity": [0.7, 0.75, 0.8, 0.9, 0.95],
+  "require_single_coordinate_variant": true,
+  "years": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
+  "exclude_feb29_from_calendar_matching": true,
+  "calendar_key_format": "MM-dd HH:mm",
+  "wet_reading_condition": "rainfall_mm > 0",
+  "wet_quantile_probabilities": [0.5, 0.9, 0.99],
+  "wet_quantile_accuracy": 10000,
+  "extreme_sensitivity_threshold_mm_per_5min": 20,
+  "comparison_purpose": "descriptive_only_not_model_station_selection",
+  "minimum_global_matched_slots_for_primary_comparison": 1000,
+  "minimum_months_in_global_support": 12
+}

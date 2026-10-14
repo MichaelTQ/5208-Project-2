@@ -1,0 +1,7 @@
+Station/network accounting, rates and cohort independently verified
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/10/11 18:51:58 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Both calendar panels independently reconstructed and source-checked
+Aggregates and wet-quantile rank bounds verified
+Stage 3 independent acceptance: PASS

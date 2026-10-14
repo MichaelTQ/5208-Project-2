@@ -1,0 +1,123 @@
+{
+  "status": "PASS",
+  "scope": "A only",
+  "mode": "verify",
+  "started_at_sgt": "2026-10-11T18:50:30+08:00",
+  "steps": [
+    {
+      "script": "scripts/preflight.py",
+      "script_sha256": "7a6a5e248384c5fb6c2028139e39d3c57d712664c1501c60beedfd193685b3e0",
+      "return_code": 0,
+      "elapsed_seconds": 4.79,
+      "log": "01_preflight.py.log"
+    },
+    {
+      "script": "scripts/smoke_sample.py",
+      "script_sha256": "37b2b959eddd0bdfcd325dcec43805294d4ef4cdc030f069b5d5ed33c50fab6e",
+      "return_code": 0,
+      "elapsed_seconds": 5.87,
+      "log": "02_smoke_sample.py.log"
+    },
+    {
+      "script": "scripts/verify_spark.py",
+      "script_sha256": "6b9389aa10f1029803f2eaff3d87ae2b75c769e58402a324e9d3f88fa42ecbf7",
+      "return_code": 0,
+      "elapsed_seconds": 6.89,
+      "log": "03_verify_spark.py.log"
+    },
+    {
+      "script": "scripts/check_stage1.py",
+      "script_sha256": "c5ae3a5495216a657ddea0c3220a34df802d78e191f03e332414f75fee72e51f",
+      "return_code": 0,
+      "elapsed_seconds": 3.37,
+      "log": "04_check_stage1.py.log"
+    },
+    {
+      "script": "tests/test_stage2_spark.py",
+      "script_sha256": "ed7d1b630434c3d78cea5e100a51077e22c8c63d33177e058e414126c1782435",
+      "return_code": 0,
+      "elapsed_seconds": 9.86,
+      "log": "05_test_stage2_spark.py.log"
+    },
+    {
+      "script": "scripts/check_stage2.py",
+      "script_sha256": "2922feb5eff4fa50c1388bc0ea5e3bf97979874c2f8da8ba5488ea967b4f1e95",
+      "return_code": 0,
+      "elapsed_seconds": 48.96,
+      "log": "06_check_stage2.py.log"
+    },
+    {
+      "script": "scripts/write_stage2_report.py",
+      "script_sha256": "ab337fc67f0d354b8702a9583a80ada612f0fc740b079d72c99f5b283bfb8c6d",
+      "return_code": 0,
+      "elapsed_seconds": 0.03,
+      "log": "07_write_stage2_report.py.log"
+    },
+    {
+      "script": "tests/test_stage3_spark.py",
+      "script_sha256": "36b6b0bf31d3b3602c7b26e5e960d4fb27f83f271c815fabeded6eb3584d1115",
+      "return_code": 0,
+      "elapsed_seconds": 7.79,
+      "log": "08_test_stage3_spark.py.log"
+    },
+    {
+      "script": "scripts/check_stage3.py",
+      "script_sha256": "442523585186f590c4e3c08bd7fc38d3f8a8418ec244a1b06e4c1e0e22cb920f",
+      "return_code": 0,
+      "elapsed_seconds": 46.03,
+      "log": "09_check_stage3.py.log"
+    },
+    {
+      "script": "scripts/write_stage3_report.py",
+      "script_sha256": "11fbeda68e7229849d62310f19338182a568a0f2ee04746097adc364e2556741",
+      "return_code": 0,
+      "elapsed_seconds": 0.35,
+      "log": "10_write_stage3_report.py.log"
+    },
+    {
+      "script": "scripts/stage5_report.py",
+      "script_sha256": "0c1e58896a11c54784ab3484107485a8297b995f76548673ef67efc5682bd2f8",
+      "return_code": 0,
+      "elapsed_seconds": 0.03,
+      "log": "11_stage5_report.py.log"
+    },
+    {
+      "script": "scripts/check_stage5.py",
+      "script_sha256": "45b7a1d4744f1a4c6e51b4231ee8272aecceb16a495ecb85737462996de9d1ba",
+      "return_code": 0,
+      "elapsed_seconds": 0.03,
+      "log": "12_check_stage5.py.log"
+    },
+    {
+      "script": "scripts/stage6_fixtures.py",
+      "script_sha256": "6d033ae50e7063e6065f9f26187b2abdd484e7a33d5808c5e0728904e2f471e4",
+      "return_code": 0,
+      "elapsed_seconds": 0.25,
+      "log": "13_stage6_fixtures.py.log"
+    },
+    {
+      "script": "tests/test_window_audit.py",
+      "script_sha256": "480db0adda591589748254bd9d7a9ea3230245f42e5ce62b3152a449f4a2a06f",
+      "return_code": 0,
+      "elapsed_seconds": 0.13,
+      "log": "14_test_window_audit.py.log"
+    },
+    {
+      "script": "scripts/stage6_spark_check.py",
+      "script_sha256": "526b92356b9ab35b5ac1124b6f0e1534ae2f728f4759a27a5718fc90c2db4ba8",
+      "return_code": 0,
+      "elapsed_seconds": 5.6,
+      "log": "15_stage6_spark_check.py.log"
+    },
+    {
+      "script": "scripts/check_stage6.py",
+      "script_sha256": "ac052792c186934eca37699faa436a4b41351504d9dd7b70b801977d219e8fc0",
+      "return_code": 0,
+      "elapsed_seconds": 2.03,
+      "log": "16_check_stage6.py.log"
+    }
+  ],
+  "finished_at_sgt": "2026-10-11T18:52:52+08:00",
+  "elapsed_seconds": 142.02,
+  "run_directory": "artifacts/stage4/runs/20261011_185030_51ec2dbb"
+}

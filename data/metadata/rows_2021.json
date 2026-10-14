@@ -1,0 +1,83 @@
+{
+  "success": true,
+  "result": {
+    "resource_id": "d_3b41598f74f1f11fc3430348fea51af5",
+    "fields": [
+      {
+        "type": "text",
+        "id": "date"
+      },
+      {
+        "type": "text",
+        "id": "timestamp"
+      },
+      {
+        "type": "text",
+        "id": "update_timestamp"
+      },
+      {
+        "type": "text",
+        "id": "station_id"
+      },
+      {
+        "type": "text",
+        "id": "station_name"
+      },
+      {
+        "type": "text",
+        "id": "station_device_id"
+      },
+      {
+        "type": "text",
+        "id": "location_longitude"
+      },
+      {
+        "type": "text",
+        "id": "location_latitude"
+      },
+      {
+        "type": "text",
+        "id": "reading_update_timestamp"
+      },
+      {
+        "type": "numeric",
+        "id": "reading_value"
+      },
+      {
+        "type": "text",
+        "id": "reading_type"
+      },
+      {
+        "type": "text",
+        "id": "reading_unit"
+      },
+      {
+        "type": "int4",
+        "id": "_id"
+      }
+    ],
+    "records": [
+      {
+        "_id": 1,
+        "date": "2021-01-01",
+        "timestamp": "2021-01-01T00:00:00+08:00",
+        "update_timestamp": "2021-01-01T00:09:49+08:00",
+        "station_id": "S77",
+        "station_name": "Alexandra Road",
+        "station_device_id": "S77",
+        "location_longitude": "103.8125",
+        "location_latitude": "1.2937",
+        "reading_update_timestamp": "2021-01-01T00:09:49+08:00",
+        "reading_value": "0.0",
+        "reading_type": "TB1 Rainfall 5 Minute Total F",
+        "reading_unit": "mm"
+      }
+    ],
+    "_links": {
+      "start": "/api/action/datastore_search?resource_id=d_3b41598f74f1f11fc3430348fea51af5&limit=1",
+      "next": "/api/action/datastore_search?resource_id=d_3b41598f74f1f11fc3430348fea51af5&offset=1&limit=1"
+    },
+    "total": 7044646,
+    "limit": 1
+  }
+}

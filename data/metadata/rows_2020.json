@@ -1,0 +1,83 @@
+{
+  "success": true,
+  "result": {
+    "resource_id": "d_9e7de44094f876f6804b8b5bcee45c81",
+    "fields": [
+      {
+        "type": "text",
+        "id": "date"
+      },
+      {
+        "type": "text",
+        "id": "timestamp"
+      },
+      {
+        "type": "text",
+        "id": "update_timestamp"
+      },
+      {
+        "type": "text",
+        "id": "station_id"
+      },
+      {
+        "type": "text",
+        "id": "station_name"
+      },
+      {
+        "type": "text",
+        "id": "station_device_id"
+      },
+      {
+        "type": "text",
+        "id": "location_longitude"
+      },
+      {
+        "type": "text",
+        "id": "location_latitude"
+      },
+      {
+        "type": "text",
+        "id": "reading_update_timestamp"
+      },
+      {
+        "type": "numeric",
+        "id": "reading_value"
+      },
+      {
+        "type": "text",
+        "id": "reading_type"
+      },
+      {
+        "type": "text",
+        "id": "reading_unit"
+      },
+      {
+        "type": "int4",
+        "id": "_id"
+      }
+    ],
+    "records": [
+      {
+        "_id": 1,
+        "date": "2020-01-01",
+        "timestamp": "2020-01-01T00:00:00+08:00",
+        "update_timestamp": "2020-01-05T17:47:38+08:00",
+        "station_id": "S105",
+        "station_name": "Admiralty Road West",
+        "station_device_id": "S105",
+        "location_longitude": "103.79525",
+        "location_latitude": "1.45817",
+        "reading_update_timestamp": "2020-01-05T17:47:38+08:00",
+        "reading_value": "0.0",
+        "reading_type": "TB1 Rainfall 5 Minute Total F",
+        "reading_unit": "mm"
+      }
+    ],
+    "_links": {
+      "start": "/api/action/datastore_search?resource_id=d_9e7de44094f876f6804b8b5bcee45c81&limit=1",
+      "next": "/api/action/datastore_search?resource_id=d_9e7de44094f876f6804b8b5bcee45c81&offset=1&limit=1"
+    },
+    "total": 6334473,
+    "limit": 1
+  }
+}

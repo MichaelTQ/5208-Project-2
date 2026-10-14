@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "checked_at_sgt": "2026-10-11T18:51:48+08:00",
+  "elapsed_seconds": 47.83,
+  "checks": {
+    "eight_original_files_unchanged": true,
+    "full_final_table_unique_valid_grid_and_precision": true,
+    "raw_row_and_exact_decimal_rainfall_ledgers_balanced": true,
+    "extreme_values_accounted_for": true,
+    "daily_monthly_annual_coverage_and_leap_years": true,
+    "per_station_internal_gaps_equal_observed_span_missing_slots": true,
+    "handoff_sample_matches_final_table_and_original_values": true,
+    "synthetic_boundary_regressions": true
+  },
+  "clean_stats": {
+    "rows": 48538625,
+    "rainfall_sum_mm": "1228210.429440000",
+    "represented_source_rows": 48538709,
+    "exact_removed": 0,
+    "variant_removed": 84,
+    "invalid_final_rows": 0,
+    "extreme_candidates": 10,
+    "shifted_clean_rows": 1775241,
+    "first_sgt": "2017-01-01 08:05:00+08:00",
+    "last_sgt": "2024-12-31 23:55:00+08:00"
+  },
+  "clean_parquet_files": 96,
+  "clean_parquet_bytes": 4223822379,
+  "raw_rows": 48538713,
+  "raw_rainfall_sum_mm": "1228212.229440000",
+  "removed_rainfall_sum_mm": "1.800000000",
+  "quarantined_invalid_rows": 0,
+  "quarantined_conflict_rows": 4,
+  "days_without_any_valid_observation": 63
+}

@@ -1,0 +1,23 @@
+{
+  "year": 2022,
+  "row_count": 7133230,
+  "malformed_width_records": 0,
+  "first_timestamp_lexical": "2022-01-01T00:00:00+08:00",
+  "last_timestamp_lexical": "2022-12-31T23:55:00+08:00",
+  "selected_station_ids": [
+    "S109",
+    "S64",
+    "S77",
+    "S90"
+  ],
+  "selected_dates": [
+    "2022-01-01",
+    "2022-12-31"
+  ],
+  "first_wet_date_for_selected_stations": "2022-01-01",
+  "sample_path": "data/samples/raw/rainfall_2022_sample.csv",
+  "sample_rows": 2016,
+  "sample_sha256": "72422e50e74740e816f44231481c6f5730a3cb1377c50d35497409aaeb2223ec",
+  "elapsed_seconds": 11.82,
+  "scope": "Full-file logical record count/header/width; other quality checks are sample-only."
+}

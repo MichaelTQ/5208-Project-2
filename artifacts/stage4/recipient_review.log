@@ -1,0 +1,50 @@
+recipient standard-library core integrity
+Handoff inventory PASS: 445 files, 4,249,058,123 bytes
+
+
+recipient sample entry from external working directory
+[1/2] scripts/preflight.py
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/10/11 19:03:06 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Current environment PASS: Python 3.11.14, Java 17, Spark 3.5.8, SGT, 4 GiB heap
+[2/2] scripts/smoke_sample.py
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/10/11 19:03:10 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Real handoff sample PASS: 16,712 rows, 31 station-year groups
+A sample: PASS (9.9s)
+
+
+recipient synthetic diagnostic export interface
+Window audit PASS: 21 queries; 0 mismatches
+
+
+recipient real diagnostic export interface
+Window audit PASS: 15 queries; 0 mismatches
+
+
+recipient full formal table independent count and Decimal sum
+Formal recipient data PASS: Row(n=48538625, mm=Decimal('1228210.429440000'), stations=91)
+
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/10/11 19:03:16 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+
+[Stage 1:=====>                                                    (4 + 4) / 41]
+
+[Stage 1:===========>                                              (8 + 4) / 41]
+
+[Stage 1:================>                                        (12 + 4) / 41]
+
+[Stage 1:======================>                                  (16 + 4) / 41]
+
+[Stage 1:=================================>                       (24 + 4) / 41]
+
+[Stage 1:======================================>                  (28 + 4) / 41]
+
+[Stage 1:============================================>            (32 + 4) / 41]
+
+[Stage 1:=======================================================> (40 + 1) / 41]
+
+                                                                                

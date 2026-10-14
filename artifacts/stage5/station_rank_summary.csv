@@ -1,0 +1,21 @@
+station_id,station_name,min_rank,max_rank,mean_rank,years_at_rank_one,support
+S08,Upper Thomson Road,1.0,11.0,5.875,1,joint_calendar_keys_five_months
+S107,East Coast Parkway,3.0,20.0,13.75,0,joint_calendar_keys_five_months
+S114,Choa Chu Kang Avenue 4,5.0,16.0,8.9375,0,joint_calendar_keys_five_months
+S115,Tuas South Avenue 3,2.0,19.0,7.375,0,joint_calendar_keys_five_months
+S116,West Coast Highway,1.0,20.0,9.5,1,joint_calendar_keys_five_months
+S119,Nicoll Highway,1.0,17.0,11.5,1,joint_calendar_keys_five_months
+S121,Old Choa Chu Kang Road,3.0,20.0,8.875,0,joint_calendar_keys_five_months
+S24,Upper Changi Road North,8.5,20.0,16.5625,0,joint_calendar_keys_five_months
+S33,Jurong Pier Road,2.0,18.0,7.375,0,joint_calendar_keys_five_months
+S40,Mandai Lake Road,1.0,16.0,7.5,1,joint_calendar_keys_five_months
+S43,Kim Chuan Road,1.0,20.0,14.0,1,joint_calendar_keys_five_months
+S77,Alexandra Road,3.0,19.0,11.375,0,joint_calendar_keys_five_months
+S78,Poole Road,9.0,20.0,15.0,0,joint_calendar_keys_five_months
+S79,Somerset Road,8.0,18.0,13.75,0,joint_calendar_keys_five_months
+S81,Punggol Central,2.0,19.0,11.5,0,joint_calendar_keys_five_months
+S88,Toa Payoh North,4.0,13.0,8.375,0,joint_calendar_keys_five_months
+S89,Tuas Road,1.0,10.0,5.75,2,joint_calendar_keys_five_months
+S90,Bukit Timah Road,1.0,14.0,8.75,1,joint_calendar_keys_five_months
+S900,Seletar Aerospace View,4.0,15.0,9.5,0,joint_calendar_keys_five_months
+S94,Pasir Ris Street 51,11.0,20.0,14.75,0,joint_calendar_keys_five_months

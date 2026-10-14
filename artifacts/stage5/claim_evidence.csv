@@ -1,0 +1,8 @@
+claim,source,fields
+Source records and bytes,artifacts/stage1/final_verification.json,total_raw_rows; total_raw_bytes
+Cleaning record/amount ledgers,artifacts/stage2/clean_accounting.json,raw_rows; clean_keys; redundant_rainfall_sum_mm; conflicting_rows
+Coverage and gaps,artifacts/stage2/final_verification.json; artifacts/stage2/gap_totals.json,days_without_any_valid_observation; internal_gaps; internal_missing_slots
+Hardware and software,artifacts/environment/environment.json; config/stage2.json,hardware; packages; spark_mode; shuffle_partitions
+Primary annual means/wet fractions,artifacts/stage3/tables/station_matched_annual.csv,equal_station_rainfall_rate; equal_station_wet_rate; observed_slots
+Spatial pooled rates and annual ranks,artifacts/stage3/tables/global_matched_year.csv; artifacts/stage3/tables/global_matched_pooled.csv,rainfall_sum_mm; observed_slots; Stage 5 rank tables
+Extreme sensitivity,artifacts/stage3/findings.json,max_network_extreme_rain_share_pct; max_primary_rate_change_without_extremes_pct

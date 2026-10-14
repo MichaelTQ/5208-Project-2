@@ -1,0 +1,16 @@
+query_id,station_id,prediction_time,q_mm,history_slots,case
+REAL_01_year_2017_complete,S109,2017-01-01T09:00:00+08:00,0E-9,12,year_2017_complete
+REAL_02_year_2018_complete,S109,2018-01-01T00:00:00+08:00,2.000000000,12,year_2018_complete
+REAL_02_year_2018_complete_BELOW_Q,S109,2018-01-01T00:00:00+08:00,1.999999999,12,year_2018_complete_strict_boundary
+REAL_04_year_2019_complete,S109,2019-12-31T00:55:00+08:00,0E-9,12,year_2019_complete
+REAL_05_year_2020_complete,S109,2020-01-01T00:00:00+08:00,0E-9,12,year_2020_complete
+REAL_06_year_2021_complete,S109,2021-01-01T00:00:00+08:00,0E-9,12,year_2021_complete
+REAL_07_year_2022_complete,S109,2022-01-01T00:00:00+08:00,0E-9,12,year_2022_complete
+REAL_08_year_2023_complete,S109,2023-01-01T00:00:00+08:00,0E-9,12,year_2023_complete
+REAL_09_year_2024_complete,S109,2024-01-01T00:00:00+08:00,0E-9,12,year_2024_complete
+REAL_10_wet_complete,S109,2017-01-01T12:25:00+08:00,0.200000000,12,wet_complete
+REAL_10_wet_complete_BELOW_Q,S109,2017-01-01T12:25:00+08:00,0.199999999,12,wet_complete_strict_boundary
+REAL_12_dry_complete,S109,2017-01-01T09:05:00+08:00,0E-9,12,dry_complete
+REAL_13_missing_future,S109,2017-01-01T23:35:00+08:00,0,12,missing_future
+REAL_14_missing_history,S109,2017-01-01T08:05:00+08:00,0E-9,12,missing_history
+REAL_15_cross_midnight,S109,2017-01-01T23:30:00+08:00,0E-9,12,cross_midnight

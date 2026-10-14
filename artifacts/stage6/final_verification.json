@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "scope": "A6 independent audit preparation only",
+  "checked_at_sgt": "2026-10-11T18:52:52+08:00",
+  "checks": {
+    "fixture_inputs_and_source_sample_fingerprints_current": true,
+    "fifteen_known_answer_precision_split_and_failure_tests": true,
+    "independent_spark_exact_joins_all_36_queries_match_oracle": true,
+    "future_six_rows_can_skip_a_required_timestamp_demonstrated": true,
+    "real_fixtures_exact_formal_sample_and_all_eight_years": true,
+    "actual_export_cli_accepts_correct_and_rejects_six_error_classes": true,
+    "formal_observations_and_six_figure_pairs_unchanged": true,
+    "cross_check_scope_and_real_external_integration_pending": true
+  },
+  "known_answer_tests": 15,
+  "synthetic_queries": 21,
+  "real_queries": 15,
+  "mutation_error_classes": 6,
+  "external_BC_implementation": "NOT_DELIVERED",
+  "required_later": [
+    "B actual window exports and full label/feature code",
+    "training-only preprocessing fit review",
+    "C saved-model load and prediction",
+    "full project run after B/C delivery"
+  ]
+}

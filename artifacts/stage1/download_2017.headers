@@ -1,0 +1,14 @@
+HTTP/1.1 206 Partial Content
+x-amz-request-id: F67HQJD1C4BZKW8W
+x-amz-id-2: UdGVdOcsoFN8TQrGHhqfv07YBsstdyZY8PwtItyGtOle7LtdX9XLm7BsOSgs7+WY0pfwfAPaMBCqHc7UxnR20uxA9hjNVe8R
+Content-Length: 1
+Accept-Ranges: bytes
+Content-Range: bytes 0-0/881206891
+Date: Sat, 10 Oct 2026 14:15:47 GMT
+Server: AmazonS3
+Last-Modified: Wed, 07 May 2025 16:30:14 GMT
+ETag: "9bbf9c66dc1ea1452ea4ef653a938794-169"
+Content-Type: binary/octet-stream
+Content-Disposition: attachment; filename="HistoricalRainfallacrossSingapore2017.csv"
+x-amz-server-side-encryption: AES256
+

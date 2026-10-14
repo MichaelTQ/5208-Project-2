@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "scope": "A only",
+  "mode": "verify",
+  "started_at_sgt": "2026-10-11T13:11:02+08:00",
+  "steps": [
+    {
+      "script": "scripts/preflight.py",
+      "return_code": 0,
+      "elapsed_seconds": 3.3,
+      "log": "01_preflight.py.log"
+    },
+    {
+      "script": "scripts/smoke_sample.py",
+      "return_code": 0,
+      "elapsed_seconds": 5.38,
+      "log": "02_smoke_sample.py.log"
+    },
+    {
+      "script": "scripts/verify_spark.py",
+      "return_code": 0,
+      "elapsed_seconds": 7.24,
+      "log": "03_verify_spark.py.log"
+    },
+    {
+      "script": "scripts/check_stage1.py",
+      "return_code": 0,
+      "elapsed_seconds": 3.43,
+      "log": "04_check_stage1.py.log"
+    },
+    {
+      "script": "tests/test_stage2_spark.py",
+      "return_code": 0,
+      "elapsed_seconds": 9.48,
+      "log": "05_test_stage2_spark.py.log"
+    },
+    {
+      "script": "scripts/check_stage2.py",
+      "return_code": 0,
+      "elapsed_seconds": 46.87,
+      "log": "06_check_stage2.py.log"
+    },
+    {
+      "script": "scripts/write_stage2_report.py",
+      "return_code": 0,
+      "elapsed_seconds": 0.07,
+      "log": "07_write_stage2_report.py.log"
+    },
+    {
+      "script": "tests/test_stage3_spark.py",
+      "return_code": 0,
+      "elapsed_seconds": 7.17,
+      "log": "08_test_stage3_spark.py.log"
+    },
+    {
+      "script": "scripts/check_stage3.py",
+      "return_code": 0,
+      "elapsed_seconds": 42.37,
+      "log": "09_check_stage3.py.log"
+    },
+    {
+      "script": "scripts/write_stage3_report.py",
+      "return_code": 0,
+      "elapsed_seconds": 0.36,
+      "log": "10_write_stage3_report.py.log"
+    }
+  ],
+  "finished_at_sgt": "2026-10-11T13:13:08+08:00",
+  "elapsed_seconds": 125.65
+}

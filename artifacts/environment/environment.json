@@ -1,0 +1,29 @@
+{
+  "recorded_at_sgt": "2026-10-11T18:50:46+08:00",
+  "os": "macOS-26.1-arm64-arm-64bit",
+  "architecture": "arm64",
+  "python_version": "3.11.14",
+  "java_version_output": "openjdk version \"17.0.20.1\" 2026-08-18\nOpenJDK Runtime Environment Temurin-17.0.20.1+1 (build 17.0.20.1+1)\nOpenJDK 64-Bit Server VM Temurin-17.0.20.1+1 (build 17.0.20.1+1, mixed mode, sharing)\n",
+  "packages": {
+    "pyspark": "3.5.8",
+    "py4j": "0.10.9.7",
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "pyarrow": "17.0.0",
+    "matplotlib": "3.9.2"
+  },
+  "hardware": {
+    "hw.physicalcpu": 10,
+    "hw.logicalcpu": 10,
+    "hw.memsize": 17179869184
+  },
+  "disk_free_bytes": 549720121344,
+  "spark_mode": "local[4]",
+  "spark_driver_memory": "4g",
+  "actual_jvm_max_heap_bytes": 4294967296,
+  "spark_shuffle_partitions": 16,
+  "spark_timezone": "Asia/Singapore",
+  "spark_aqe_enabled": "true",
+  "cluster_nodes": 1,
+  "note": "Local mode: one driver process, four local execution threads; no remote executor nodes."
+}

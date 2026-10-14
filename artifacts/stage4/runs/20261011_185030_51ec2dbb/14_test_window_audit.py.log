@@ -1,0 +1,20 @@
+test_cli_failure_replaces_old_pass_and_returns_nonzero (__main__.WindowAuditTests.test_cli_failure_replaces_old_pass_and_returns_nonzero) ... ok
+test_cross_day_leap_day_and_training_year_are_allowed (__main__.WindowAuditTests.test_cross_day_leap_day_and_training_year_are_allowed) ... ok
+test_exact_split_boundary_and_study_end (__main__.WindowAuditTests.test_exact_split_boundary_and_study_end) ... ok
+test_export_mutations_and_float_rejected (__main__.WindowAuditTests.test_export_mutations_and_float_rejected) ... ok
+test_historical_values_before_validation_are_permitted (__main__.WindowAuditTests.test_historical_values_before_validation_are_permitted) ... ok
+test_history_gap_does_not_impute_or_erase_complete_target (__main__.WindowAuditTests.test_history_gap_does_not_impute_or_erase_complete_target) ... ok
+test_invalid_inputs_and_duplicate_observations_rejected (__main__.WindowAuditTests.test_invalid_inputs_and_duplicate_observations_rejected) ... ok
+test_missing_anchor_and_end_of_data (__main__.WindowAuditTests.test_missing_anchor_and_end_of_data) ... ok
+test_missing_slot_with_six_later_rows_is_not_a_label (__main__.WindowAuditTests.test_missing_slot_with_six_later_rows_is_not_a_label) ... ok
+test_nine_decimal_precision_sum (__main__.WindowAuditTests.test_nine_decimal_precision_sum) ... ok
+test_observed_zero_is_valid_dry_target (__main__.WindowAuditTests.test_observed_zero_is_valid_dry_target) ... ok
+test_query_ids_must_match_and_cannot_repeat (__main__.WindowAuditTests.test_query_ids_must_match_and_cannot_repeat) ... ok
+test_station_isolation_and_timezone_conversion (__main__.WindowAuditTests.test_station_isolation_and_timezone_conversion) ... ok
+test_strict_greater_equal_and_one_decimal_step (__main__.WindowAuditTests.test_strict_greater_equal_and_one_decimal_step) ... ok
+test_t_reading_is_excluded (__main__.WindowAuditTests.test_t_reading_is_excluded) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.088s
+
+OK

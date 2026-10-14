@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "timezone": "Asia/Singapore",
+  "interval_seconds": 300,
+  "future_slots": 6,
+  "example_history_slots_including_t": 12,
+  "interval_semantics": "research_convention_end_timestamp_not_officially_confirmed",
+  "splits": [
+    {"name": "train", "start": "2017-01-01T00:00:00+08:00", "end_exclusive": "2023-01-01T00:00:00+08:00"},
+    {"name": "validation", "start": "2023-01-01T00:00:00+08:00", "end_exclusive": "2024-01-01T00:00:00+08:00"},
+    {"name": "test", "start": "2024-01-01T00:00:00+08:00", "end_exclusive": "2025-01-01T00:00:00+08:00"}
+  ],
+  "scope": "bounded A cross-check fixtures only; not full training-label or feature production"
+}

@@ -1,0 +1,23 @@
+{
+  "year": 2018,
+  "row_count": 4594246,
+  "malformed_width_records": 0,
+  "first_timestamp_lexical": "2018-01-01T00:00:00+08:00",
+  "last_timestamp_lexical": "2018-12-31T23:55:00+08:00",
+  "selected_station_ids": [
+    "S109",
+    "S64",
+    "S77",
+    "S90"
+  ],
+  "selected_dates": [
+    "2018-01-01",
+    "2018-12-31"
+  ],
+  "first_wet_date_for_selected_stations": "2018-01-01",
+  "sample_path": "data/samples/raw/rainfall_2018_sample.csv",
+  "sample_rows": 2003,
+  "sample_sha256": "c6514210aed36194e79f451ae1ccb7a95c485cb6b65b4bdfb5f8dfbd5df5409c",
+  "elapsed_seconds": 7.12,
+  "scope": "Full-file logical record count/header/width; other quality checks are sample-only."
+}

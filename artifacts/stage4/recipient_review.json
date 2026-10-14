@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "checked_at_sgt": "2026-10-11T19:03:21+08:00",
+  "scope": "core-only recipient copy; same-machine runtime explicitly reused; not B/C hardware or fresh installation",
+  "review_script_sha256": "8fd9514722d3c740aabeb62c4d93f5026b86b9328aca5dc189b2e37fc809555d",
+  "reviewed_manifest_sha256": "73f4859fecf4ccda83b413b497bd7198f2ff0c2c923a4d3e15a77232ffbf06a9",
+  "source_integrity": {
+    "files_verified": 453,
+    "bytes_verified": 12296102824,
+    "optional_raw_verified": true
+  },
+  "recipient_core_integrity": {
+    "files_verified": 445,
+    "bytes_verified": 4249058123,
+    "optional_raw_verified": false
+  },
+  "excluded_production_caches_and_raw": true,
+  "sample_rows": 16712,
+  "formal_rows": 48538625,
+  "formal_station_ids": 91,
+  "formal_rainfall_audit_sum_mm": "1228210.429440000",
+  "window_queries": 36,
+  "window_actual_source": "A independent Spark fixture answers, not B implementation",
+  "steps": [
+    {
+      "name": "recipient standard-library core integrity",
+      "return_code": 0
+    },
+    {
+      "name": "recipient sample entry from external working directory",
+      "return_code": 0
+    },
+    {
+      "name": "recipient synthetic diagnostic export interface",
+      "return_code": 0
+    },
+    {
+      "name": "recipient real diagnostic export interface",
+      "return_code": 0
+    },
+    {
+      "name": "recipient full formal table independent count and Decimal sum",
+      "return_code": 0
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "error": "greater_or_equal",
+    "query_id": "SYN_EQUAL",
+    "return_code": 1,
+    "mismatch_count": 1,
+    "rejected": true
+  },
+  {
+    "error": "missing_as_zero",
+    "query_id": "SYN_GAP_SIX_ROWS",
+    "return_code": 1,
+    "mismatch_count": 1,
+    "rejected": true
+  },
+  {
+    "error": "include_t",
+    "query_id": "SYN_EXCLUDE_T",
+    "return_code": 1,
+    "mismatch_count": 1,
+    "rejected": true
+  },
+  {
+    "error": "split_crossing",
+    "query_id": "SYN_TRAIN_CROSS",
+    "return_code": 1,
+    "mismatch_count": 1,
+    "rejected": true
+  },
+  {
+    "error": "rounded_amount",
+    "query_id": "SYN_NINE_DECIMALS",
+    "return_code": 1,
+    "mismatch_count": 1,
+    "rejected": true
+  },
+  {
+    "error": "float_output",
+    "query_id": "SYN_EQUAL",
+    "return_code": 1,
+    "mismatch_count": 1,
+    "rejected": true
+  }
+]

@@ -1,0 +1,203 @@
+{
+  "raw_rows": 48538713,
+  "raw_bytes": 8047044701,
+  "clean_rows": 48538625,
+  "clean_files": 96,
+  "clean_bytes": 4223822379,
+  "stations": 91,
+  "compatible_rows_removed": 84,
+  "conflict_rows": 4,
+  "invalid_rows": 0,
+  "raw_adjusted_rows": 1775327,
+  "clean_adjusted_rows": 1775241,
+  "raw_audit_amount_mm": "1228212.229440000",
+  "clean_audit_amount_mm": "1228210.429440000",
+  "removed_audit_amount_mm": "1.800000000",
+  "days_without_any_valid_observation": 63,
+  "gaps": {
+    "internal_gaps": 195591,
+    "internal_missing_slots": 7514757,
+    "cross_year_gaps": 37,
+    "long_gaps_at_least_60_missing_minutes": 11920
+  },
+  "annual_primary_values": [
+    {
+      "observation_year": "2017",
+      "stations": "20",
+      "observed_slots": "1318195",
+      "min_station_slots": "50641",
+      "max_station_slots": "75843",
+      "equal_station_rainfall_rate": "0.026230097093317210000",
+      "equal_station_wet_rate": "0.03116552561473112",
+      "mean_station_observed_sum_mm": "1729.3499990000000",
+      "equal_station_rate_without_extremes": "0.02623009709331721500",
+      "equal_station_wet_rate_without_extremes": "0.03116552561473112",
+      "extreme_slots": "0",
+      "extreme_rainfall_sum_mm": "0E-9",
+      "min_months_per_station": "10",
+      "support_type": "station_specific_calendar_matched"
+    },
+    {
+      "observation_year": "2018",
+      "stations": "20",
+      "observed_slots": "1318195",
+      "min_station_slots": "50641",
+      "max_station_slots": "75843",
+      "equal_station_rainfall_rate": "0.023412295361263345500",
+      "equal_station_wet_rate": "0.027614517463159172",
+      "mean_station_observed_sum_mm": "1535.1500025000000",
+      "equal_station_rate_without_extremes": "0.02341229536126334000",
+      "equal_station_wet_rate_without_extremes": "0.027614517463159172",
+      "extreme_slots": "0",
+      "extreme_rainfall_sum_mm": "0E-9",
+      "min_months_per_station": "10",
+      "support_type": "station_specific_calendar_matched"
+    },
+    {
+      "observation_year": "2019",
+      "stations": "20",
+      "observed_slots": "1318195",
+      "min_station_slots": "50641",
+      "max_station_slots": "75843",
+      "equal_station_rainfall_rate": "0.017899642625979411000",
+      "equal_station_wet_rate": "0.02126551094787644",
+      "mean_station_observed_sum_mm": "1174.7700010000000",
+      "equal_station_rate_without_extremes": "0.01789964262597940000",
+      "equal_station_wet_rate_without_extremes": "0.02126551094787644",
+      "extreme_slots": "0",
+      "extreme_rainfall_sum_mm": "0E-9",
+      "min_months_per_station": "10",
+      "support_type": "station_specific_calendar_matched"
+    },
+    {
+      "observation_year": "2020",
+      "stations": "20",
+      "observed_slots": "1318195",
+      "min_station_slots": "50641",
+      "max_station_slots": "75843",
+      "equal_station_rainfall_rate": "0.027109322004754433000",
+      "equal_station_wet_rate": "0.031194491843219208",
+      "mean_station_observed_sum_mm": "1774.4100045000000",
+      "equal_station_rate_without_extremes": "0.02710932200475443500",
+      "equal_station_wet_rate_without_extremes": "0.031194491843219208",
+      "extreme_slots": "0",
+      "extreme_rainfall_sum_mm": "0E-9",
+      "min_months_per_station": "10",
+      "support_type": "station_specific_calendar_matched"
+    },
+    {
+      "observation_year": "2021",
+      "stations": "20",
+      "observed_slots": "1318195",
+      "min_station_slots": "50641",
+      "max_station_slots": "75843",
+      "equal_station_rainfall_rate": "0.025542096809255398000",
+      "equal_station_wet_rate": "0.028095208306388408",
+      "mean_station_observed_sum_mm": "1677.4400015000000",
+      "equal_station_rate_without_extremes": "0.02552034195312805500",
+      "equal_station_wet_rate_without_extremes": "0.02809440801899641",
+      "extreme_slots": "1",
+      "extreme_rainfall_sum_mm": "26.400000000",
+      "min_months_per_station": "10",
+      "support_type": "station_specific_calendar_matched"
+    },
+    {
+      "observation_year": "2022",
+      "stations": "20",
+      "observed_slots": "1318195",
+      "min_station_slots": "50641",
+      "max_station_slots": "75843",
+      "equal_station_rainfall_rate": "0.026779294586765971000",
+      "equal_station_wet_rate": "0.029082726385008896",
+      "mean_station_observed_sum_mm": "1761.4200075000000",
+      "equal_station_rate_without_extremes": "0.02677929458676597000",
+      "equal_station_wet_rate_without_extremes": "0.029082726385008896",
+      "extreme_slots": "0",
+      "extreme_rainfall_sum_mm": "0E-9",
+      "min_months_per_station": "10",
+      "support_type": "station_specific_calendar_matched"
+    },
+    {
+      "observation_year": "2023",
+      "stations": "20",
+      "observed_slots": "1318195",
+      "min_station_slots": "50641",
+      "max_station_slots": "75843",
+      "equal_station_rainfall_rate": "0.028934637067442942000",
+      "equal_station_wet_rate": "0.035287297534918105",
+      "mean_station_observed_sum_mm": "1894.9499985000000",
+      "equal_station_rate_without_extremes": "0.02893463706744294500",
+      "equal_station_wet_rate_without_extremes": "0.035287297534918105",
+      "extreme_slots": "0",
+      "extreme_rainfall_sum_mm": "0E-9",
+      "min_months_per_station": "10",
+      "support_type": "station_specific_calendar_matched"
+    },
+    {
+      "observation_year": "2024",
+      "stations": "20",
+      "observed_slots": "1318195",
+      "min_station_slots": "50641",
+      "max_station_slots": "75843",
+      "equal_station_rainfall_rate": "0.024325470806550589000",
+      "equal_station_wet_rate": "0.028844887868058094",
+      "mean_station_observed_sum_mm": "1599.5399965000000",
+      "equal_station_rate_without_extremes": "0.02432547080655058000",
+      "equal_station_wet_rate_without_extremes": "0.028844887868058094",
+      "extreme_slots": "0",
+      "extreme_rainfall_sum_mm": "0E-9",
+      "min_months_per_station": "10",
+      "support_type": "station_specific_calendar_matched"
+    }
+  ],
+  "findings": {
+    "primary_highest_year": 2023,
+    "primary_lowest_year": 2019,
+    "joint_top_station": "S08",
+    "joint_bottom_station": "S24",
+    "global_september_share_pct": 70.72434607645876,
+    "max_network_extreme_rain_share_pct": 0.07786763626976036,
+    "max_primary_rate_change_without_extremes_pct": 0.08517255372496227,
+    "primary_rank_unchanged_without_extremes": true
+  },
+  "station_rank_first_by_year": {
+    "2017": [
+      "S43"
+    ],
+    "2018": [
+      "S90"
+    ],
+    "2019": [
+      "S116"
+    ],
+    "2020": [
+      "S89"
+    ],
+    "2021": [
+      "S08"
+    ],
+    "2022": [
+      "S40"
+    ],
+    "2023": [
+      "S119"
+    ],
+    "2024": [
+      "S89"
+    ]
+  },
+  "rank_correlation_range": [
+    -0.16998872958435002,
+    0.5774436090225564
+  ],
+  "S08_rank_range": [
+    1.0,
+    11.0
+  ],
+  "timings": {
+    "annual_parse_job_seconds": 179.55999999999997,
+    "clean_job_seconds": 378.58,
+    "quality_job_seconds": 43.06,
+    "analysis_job_seconds": 35.23
+  }
+}

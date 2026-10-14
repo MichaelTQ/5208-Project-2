@@ -1,0 +1,10 @@
+test_completed_partial_promoted_only_after_hash_verification (test_integrity.IntegrityTests.test_completed_partial_promoted_only_after_hash_verification) ... ok
+test_existing_file_wrong_checksum_rejected (test_integrity.IntegrityTests.test_existing_file_wrong_checksum_rejected) ... ok
+test_existing_file_wrong_size_rejected (test_integrity.IntegrityTests.test_existing_file_wrong_size_rejected) ... ok
+test_metadata_order_is_explicit (test_integrity.IntegrityTests.test_metadata_order_is_explicit) ... ok
+test_range_total_used_instead_of_one_byte_response_length (test_integrity.IntegrityTests.test_range_total_used_instead_of_one_byte_response_length) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK

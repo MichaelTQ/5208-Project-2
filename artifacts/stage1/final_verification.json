@@ -1,0 +1,168 @@
+{
+  "checked_at_sgt": "2026-10-11T18:50:50+08:00",
+  "status": "PASS",
+  "annual_files": [
+    {
+      "year": 2017,
+      "raw_rows": 5256106,
+      "size_bytes": 881206891,
+      "catalogue_size_bytes": 1007353435,
+      "sha256_rechecked": true,
+      "sample_rows": 1898,
+      "first_timestamp": "2017-01-01T08:04:59+08:00",
+      "last_timestamp": "2017-12-31T23:55:00+08:00",
+      "sample_station_ids": [
+        "S109",
+        "S64",
+        "S77",
+        "S90"
+      ],
+      "candidate_stations_absent_from_sample": []
+    },
+    {
+      "year": 2018,
+      "raw_rows": 4594246,
+      "size_bytes": 769547920,
+      "catalogue_size_bytes": 879809824,
+      "sha256_rechecked": true,
+      "sample_rows": 2003,
+      "first_timestamp": "2018-01-01T00:00:00+08:00",
+      "last_timestamp": "2018-12-31T23:55:00+08:00",
+      "sample_station_ids": [
+        "S109",
+        "S64",
+        "S77",
+        "S90"
+      ],
+      "candidate_stations_absent_from_sample": []
+    },
+    {
+      "year": 2019,
+      "raw_rows": 5026862,
+      "size_bytes": 842751786,
+      "catalogue_size_bytes": 963396474,
+      "sha256_rechecked": true,
+      "sample_rows": 2016,
+      "first_timestamp": "2019-01-01T00:00:00+08:00",
+      "last_timestamp": "2019-12-31T23:55:00+08:00",
+      "sample_station_ids": [
+        "S109",
+        "S64",
+        "S77",
+        "S90"
+      ],
+      "candidate_stations_absent_from_sample": []
+    },
+    {
+      "year": 2020,
+      "raw_rows": 6334473,
+      "size_bytes": 1048946924,
+      "catalogue_size_bytes": 1200974276,
+      "sha256_rechecked": true,
+      "sample_rows": 3163,
+      "first_timestamp": "2020-01-01T00:00:00+08:00",
+      "last_timestamp": "2020-12-31T23:55:00+08:00",
+      "sample_station_ids": [
+        "S109",
+        "S64",
+        "S77",
+        "S90"
+      ],
+      "candidate_stations_absent_from_sample": []
+    },
+    {
+      "year": 2021,
+      "raw_rows": 7044646,
+      "size_bytes": 1158573170,
+      "catalogue_size_bytes": 1327644674,
+      "sha256_rechecked": true,
+      "sample_rows": 1150,
+      "first_timestamp": "2021-01-01T00:00:00+08:00",
+      "last_timestamp": "2021-12-31T23:55:00+08:00",
+      "sample_station_ids": [
+        "S109",
+        "S77",
+        "S90"
+      ],
+      "candidate_stations_absent_from_sample": [
+        "S64"
+      ]
+    },
+    {
+      "year": 2022,
+      "raw_rows": 7133230,
+      "size_bytes": 1172655651,
+      "catalogue_size_bytes": 1343853171,
+      "sha256_rechecked": true,
+      "sample_rows": 2016,
+      "first_timestamp": "2022-01-01T00:00:00+08:00",
+      "last_timestamp": "2022-12-31T23:55:00+08:00",
+      "sample_station_ids": [
+        "S109",
+        "S64",
+        "S77",
+        "S90"
+      ],
+      "candidate_stations_absent_from_sample": []
+    },
+    {
+      "year": 2023,
+      "raw_rows": 6742890,
+      "size_bytes": 1107489275,
+      "catalogue_size_bytes": 1269318635,
+      "sha256_rechecked": true,
+      "sample_rows": 2164,
+      "first_timestamp": "2023-01-01T00:00:00+08:00",
+      "last_timestamp": "2023-12-31T23:55:00+08:00",
+      "sample_station_ids": [
+        "S109",
+        "S64",
+        "S77",
+        "S90"
+      ],
+      "candidate_stations_absent_from_sample": []
+    },
+    {
+      "year": 2024,
+      "raw_rows": 6406260,
+      "size_bytes": 1065873084,
+      "catalogue_size_bytes": 1219623324,
+      "sha256_rechecked": true,
+      "sample_rows": 2302,
+      "first_timestamp": "2024-01-01T00:00:00+08:00",
+      "last_timestamp": "2024-12-31T23:55:00+08:00",
+      "sample_station_ids": [
+        "S109",
+        "S64",
+        "S77",
+        "S90"
+      ],
+      "candidate_stations_absent_from_sample": []
+    }
+  ],
+  "total_raw_rows": 48538713,
+  "total_raw_bytes": 8047044701,
+  "total_sample_rows": 16712,
+  "unit_tests_run": 5,
+  "unit_tests_passed": true,
+  "spark_assertions": {
+    "row_count_preserved": true,
+    "parquet_multiset_equal": true,
+    "timezone_epoch_and_display_verified_all_years": true,
+    "all_eight_years_present": true,
+    "all_four_selected_stations_present": true,
+    "rain_and_dry_examples_present": true,
+    "2017_second_offset_preserved": true,
+    "sample_has_no_parse_failures": true,
+    "sample_units_are_mm": true,
+    "sample_reading_type_is_5_minute_total": true
+  },
+  "boundary_examples": 28,
+  "continuous_five_minute_boundaries": 25,
+  "limitations": [
+    "五分钟区间的起止语义和更新字段含义未确认；本阶段不构造标签。",
+    "样本结果不能代表全量缺失、异常、重复或站点历史质量。",
+    "首末日开发样本中的真实缺口予以保留，不填零。",
+    "仅本机 macOS ARM64 环境得到实际验证；Lecture 5/6 不需要提供。"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "code": 0,
+  "data": {
+    "collectionMetadata": {
+      "collectionId": "2279",
+      "createdAt": "2025-05-06T02:06:15+08:00",
+      "name": "Historical Rainfall across Singapore",
+      "description": "Historical rainfall across Singapore. All timestamps are provided in Singapore Time (SGT), formatted in ISO 8601.\n\n⠀\n\nDisclaimer: This dataset may contain missing records and has not undergone quality control procedures applied to climate data and records. For official climate records or climate data reports, please contact sales_climo@nea.gov.sg. Please note that fees may apply for data and report preparation.",
+      "lastUpdatedAt": "2025-05-06T02:06:15+08:00",
+      "coverageStart": "2016-12-02T08:00:00+08:00",
+      "coverageEnd": "2024-12-31T08:00:00+08:00",
+      "sources": [
+        "National Environment Agency"
+      ],
+      "managedBy": "National Environment Agency",
+      "childDatasets": [
+        "d_79a6f0fb898996d415b207bb26ed0fa6",
+        "d_1990a5a1aeaf3dd243cf4dae294a61c4",
+        "d_024fb501ce7092b71bb713eaf54fa7eb",
+        "d_61995f092320e7155b7528050880b502",
+        "d_9e7de44094f876f6804b8b5bcee45c81",
+        "d_3b41598f74f1f11fc3430348fea51af5",
+        "d_42d64cc6c176ace1c52fbb40b9ede302",
+        "d_f864cc30d58b467db83659ad17c737bf",
+        "d_a0b69d3e02576a1fd0ab673e71f83507"
+      ]
+    }
+  },
+  "errorMsg": ""
+}

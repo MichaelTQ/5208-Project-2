@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "core_roots": ["README.md", ".gitignore", "requirements.txt", "requirements.lock.txt", "config", "scripts", "tests", "docs", "data/data_manifest.csv", "data/metadata", "data/samples/raw", "data/clean", "data/quarantine", "data/handoff", "artifacts/environment", "artifacts/stage1", "artifacts/stage2", "artifacts/stage3", "artifacts/stage4", "artifacts/stage5", "artifacts/stage6"],
+  "optional_raw_root": "data/raw",
+  "excluded_roots": [".venv", ".runtime", ".cache", ".git", ".agents", ".codex", "data/stage2", "data/analysis", "data/samples/parquet", "artifacts/spark-local", "artifacts/stage4/smoke/observations"],
+  "unhashed_companions": ["artifacts/stage4/handoff_manifest.json", "artifacts/stage4/storage_inventory.json", "artifacts/stage4/manifest_verification.json", "artifacts/stage4/final_verification.json", "artifacts/stage4/STAGE_4_CHECK_REPORT.md", "artifacts/A_FINAL_STATUS.json", "artifacts/A_FINAL_CHECK_REPORT.md"],
+  "ignored_file_names": [".DS_Store"],
+  "ignored_suffixes": [".pyc", ".crc", ".part", ".tmp"],
+  "notes": ["Core files suffice for B/C to consume formal observations and run the sample; full A verification additionally needs optional raw CSV and regenerated Stage 3 analysis checkpoints.", "Unhashed companions are generated seal/manifest files omitted to avoid circular hashes; include them beside the listed payload when packaging later.", "No ZIP is created in Stage 4. Raw CSV inclusion is decided when the user requests packaging."]
+}

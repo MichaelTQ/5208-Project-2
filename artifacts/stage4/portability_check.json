@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "checked_at_sgt": "2026-10-11T18:53:16+08:00",
+  "scope": "Relocated sample payload, path with spaces, external cwd, same macOS ARM64 machine; runtime reused explicitly, not a fresh install or B/C machine test",
+  "sample_rows": 16712,
+  "elapsed_seconds": 10.05,
+  "script_fingerprints": {
+    "scripts/preflight.py": "7a6a5e248384c5fb6c2028139e39d3c57d712664c1501c60beedfd193685b3e0",
+    "scripts/smoke_sample.py": "37b2b959eddd0bdfcd325dcec43805294d4ef4cdc030f069b5d5ed33c50fab6e",
+    "scripts/run_pipeline.py": "fe26eb33a646deb74e834241a91e3f5b60f188a85a49769d750750351d8b439c",
+    "scripts/run.sh": "fc7d1d29609aaeb6ea9b560ba5553e98d391e11f0692980af34effc48eba18c5",
+    "config/pipeline.json": "567f1d4568bcc178be5d28b3dc3bc674e162f8f53bd81d7fb0eef6d333699955"
+  }
+}

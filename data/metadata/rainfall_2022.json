@@ -1,0 +1,138 @@
+{
+  "code": 0,
+  "data": {
+    "datasetId": "d_42d64cc6c176ace1c52fbb40b9ede302",
+    "createdAt": "2025-05-06T01:46:15+08:00",
+    "name": "Historical Rainfall across Singapore (2022)",
+    "collectionIds": [
+      "2279"
+    ],
+    "description": "Historical rainfall across Singapore. All timestamps are provided in Singapore Time (SGT), formatted in ISO 8601.\n\n⠀\n\nDisclaimer: This dataset may contain missing records and has not undergone quality control procedures applied to climate data and records. For official climate records or climate data reports, please contact sales_climo@nea.gov.sg. Please note that fees may apply for data and report preparation.",
+    "format": "CSV",
+    "lastUpdatedAt": "2025-05-06T01:53:42+08:00",
+    "managedBy": "National Environment Agency",
+    "coverageStart": "2022-01-01T08:00:00+08:00",
+    "coverageEnd": "2022-12-31T08:00:00+08:00",
+    "contactEmails": [
+      "feedback@data.gov.sg"
+    ],
+    "datasetSize": 1343853171,
+    "columnMetadata": {
+      "order": [
+        "c_7lw6wxea9vzobj22bq4z7riml",
+        "c_i0ylxb512i6mx3gk7kkdh9v0",
+        "c_9zcu2qg20d5q6ywomapph9daf",
+        "c_bgjy23jyis3vf1nc77bssi3tk",
+        "c_4sgn6l8bv1n98y31eumd3c2or",
+        "c_53ia2qkhwzc2cfh5khqvmylje",
+        "c_7wcbnlc959ml9r7tntw5b0nha",
+        "c_8q04w1vd82ac4jb8vk0k5k74x",
+        "c_6ephj69q9pk7sl05bq7vfgz50",
+        "c_bd2mzarai7uun5l32ifgm32rh",
+        "c_aeeseo96j2xj9jy6vgzdhgw7r",
+        "c_5qrfw8s0ote78ff3ry46scvst"
+      ],
+      "map": {
+        "c_7lw6wxea9vzobj22bq4z7riml": "date",
+        "c_i0ylxb512i6mx3gk7kkdh9v0": "timestamp",
+        "c_9zcu2qg20d5q6ywomapph9daf": "update_timestamp",
+        "c_bgjy23jyis3vf1nc77bssi3tk": "station_id",
+        "c_4sgn6l8bv1n98y31eumd3c2or": "station_name",
+        "c_53ia2qkhwzc2cfh5khqvmylje": "station_device_id",
+        "c_7wcbnlc959ml9r7tntw5b0nha": "location_longitude",
+        "c_8q04w1vd82ac4jb8vk0k5k74x": "location_latitude",
+        "c_6ephj69q9pk7sl05bq7vfgz50": "reading_update_timestamp",
+        "c_bd2mzarai7uun5l32ifgm32rh": "reading_value",
+        "c_aeeseo96j2xj9jy6vgzdhgw7r": "reading_type",
+        "c_5qrfw8s0ote78ff3ry46scvst": "reading_unit"
+      },
+      "metaMapping": {
+        "c_7lw6wxea9vzobj22bq4z7riml": {
+          "name": "date",
+          "columnTitle": "Date",
+          "dataType": "Date (YYYY-MM-DD)",
+          "index": "0",
+          "isCategorical": false
+        },
+        "c_i0ylxb512i6mx3gk7kkdh9v0": {
+          "name": "timestamp",
+          "columnTitle": "Timestamp",
+          "dataType": "Text",
+          "index": "1",
+          "isCategorical": true
+        },
+        "c_9zcu2qg20d5q6ywomapph9daf": {
+          "name": "update_timestamp",
+          "columnTitle": "Update Timestamp",
+          "dataType": "Text",
+          "index": "2",
+          "isCategorical": true
+        },
+        "c_bgjy23jyis3vf1nc77bssi3tk": {
+          "name": "station_id",
+          "columnTitle": "Station Id",
+          "dataType": "Text",
+          "index": "3",
+          "isCategorical": true
+        },
+        "c_4sgn6l8bv1n98y31eumd3c2or": {
+          "name": "station_name",
+          "columnTitle": "Station Name",
+          "dataType": "Text",
+          "index": "4",
+          "isCategorical": true
+        },
+        "c_53ia2qkhwzc2cfh5khqvmylje": {
+          "name": "station_device_id",
+          "columnTitle": "Station Device Id",
+          "dataType": "Text",
+          "index": "5",
+          "isCategorical": true
+        },
+        "c_7wcbnlc959ml9r7tntw5b0nha": {
+          "name": "location_longitude",
+          "columnTitle": "Location Longitude",
+          "dataType": "Text",
+          "index": "6",
+          "isCategorical": true
+        },
+        "c_8q04w1vd82ac4jb8vk0k5k74x": {
+          "name": "location_latitude",
+          "columnTitle": "Location Latitude",
+          "dataType": "Text",
+          "index": "7",
+          "isCategorical": true
+        },
+        "c_6ephj69q9pk7sl05bq7vfgz50": {
+          "name": "reading_update_timestamp",
+          "columnTitle": "Reading Update Timestamp",
+          "dataType": "Text",
+          "index": "8",
+          "isCategorical": true
+        },
+        "c_bd2mzarai7uun5l32ifgm32rh": {
+          "name": "reading_value",
+          "columnTitle": "Reading Value",
+          "dataType": "Numeric",
+          "index": "9",
+          "isCategorical": true
+        },
+        "c_aeeseo96j2xj9jy6vgzdhgw7r": {
+          "name": "reading_type",
+          "columnTitle": "Reading Type",
+          "dataType": "Text",
+          "index": "10",
+          "isCategorical": true
+        },
+        "c_5qrfw8s0ote78ff3ry46scvst": {
+          "name": "reading_unit",
+          "columnTitle": "Reading Unit",
+          "dataType": "Text",
+          "index": "11",
+          "isCategorical": true
+        }
+      }
+    }
+  },
+  "errorMsg": ""
+}

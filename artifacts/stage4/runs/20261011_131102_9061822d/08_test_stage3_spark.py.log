@@ -1,0 +1,14 @@
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/10/11 13:12:19 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+test_equal_station_weights_are_not_record_weights (__main__.Stage3Tests.test_equal_station_weights_are_not_record_weights) ... ok
+test_extreme_exclusion_changes_the_denominator (__main__.Stage3Tests.test_extreme_exclusion_changes_the_denominator) ... ok
+test_leap_day_and_incomplete_calendar_keys (__main__.Stage3Tests.test_leap_day_and_incomplete_calendar_keys) ... ok
+test_missing_is_not_added_to_observed_denominator (__main__.Stage3Tests.test_missing_is_not_added_to_observed_denominator) ... ok
+test_nine_digit_precision_is_preserved (__main__.Stage3Tests.test_nine_digit_precision_is_preserved) ... ok
+test_wet_quantiles_exclude_zero_and_dry_groups_remain_null (__main__.Stage3Tests.test_wet_quantiles_exclude_zero_and_dry_groups_remain_null) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 6.306s
+
+OK

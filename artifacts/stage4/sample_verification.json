@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "checked_at_sgt": "2026-10-11T18:50:40+08:00",
+  "scope": "A handoff sample only; not representative full data; no model pipeline",
+  "rows": 16712,
+  "station_year_groups": 31,
+  "source_csv_sha256": "5f0e9892503d5ff575ecc2803e7e76c78b4ef1c0b4709474a5e6b3e15f9d50a1",
+  "summary_csv_sha256": "463fb2a889b2cfff9ddd9cf5d1c36daa7668ef2003ac1b9adc8ea65e8b5f5f01",
+  "rainfall_sum_mm": "1199.800000000",
+  "checks": {
+    "formal_schema_unique_grid_and_csv_keys": true,
+    "independent_decimal_csv_aggregation": true,
+    "all_fields_parquet_roundtrip": true,
+    "csv_roundtrip_eight_years_wet_and_dry": true
+  }
+}

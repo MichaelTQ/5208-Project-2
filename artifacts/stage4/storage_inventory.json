@@ -1,0 +1,84 @@
+{
+  "created_at_sgt": "2026-10-11T19:03:31+08:00",
+  "core_files": 445,
+  "core_bytes": 4249058892,
+  "optional_raw_files": 8,
+  "optional_raw_bytes": 8047044701,
+  "core_groups": {
+    "code_docs_and_other_evidence": {
+      "files": 202,
+      "bytes": 3429506
+    },
+    "artifacts/stage2": {
+      "files": 83,
+      "bytes": 8643805
+    },
+    "artifacts/stage3": {
+      "files": 36,
+      "bytes": 1495298
+    },
+    "data/clean": {
+      "files": 97,
+      "bytes": 4223822379
+    },
+    "data/handoff": {
+      "files": 22,
+      "bytes": 11640982
+    },
+    "data/quarantine": {
+      "files": 5,
+      "bytes": 26922
+    }
+  },
+  "excluded_storage": [
+    {
+      "path": ".venv",
+      "files": 6594,
+      "bytes": 586011090,
+      "reason": "machine environment, temporary/cache or rebuildable intermediate"
+    },
+    {
+      "path": ".runtime",
+      "files": 2995,
+      "bytes": 564738631,
+      "reason": "machine environment, temporary/cache or rebuildable intermediate"
+    },
+    {
+      "path": ".cache",
+      "files": 8514,
+      "bytes": 1618585695,
+      "reason": "machine environment, temporary/cache or rebuildable intermediate"
+    },
+    {
+      "path": "data/stage2",
+      "files": 272,
+      "bytes": 9497141170,
+      "reason": "machine environment, temporary/cache or rebuildable intermediate"
+    },
+    {
+      "path": "data/analysis",
+      "files": 78,
+      "bytes": 64039978,
+      "reason": "machine environment, temporary/cache or rebuildable intermediate"
+    },
+    {
+      "path": "data/samples/parquet",
+      "files": 18,
+      "bytes": 345828,
+      "reason": "machine environment, temporary/cache or rebuildable intermediate"
+    },
+    {
+      "path": "artifacts/spark-local",
+      "files": 0,
+      "bytes": 0,
+      "reason": "machine environment, temporary/cache or rebuildable intermediate"
+    },
+    {
+      "path": "artifacts/stage4/smoke/observations",
+      "files": 10,
+      "bytes": 1726521,
+      "reason": "machine environment, temporary/cache or rebuildable intermediate"
+    }
+  ],
+  "uncompressed_bytes_not_zip_estimate": true
+}
